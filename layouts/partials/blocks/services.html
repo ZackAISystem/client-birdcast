@@ -1,0 +1,157 @@
+{{ $d := .Site.Data.home }}
+
+<section class="services" id="services">
+  <div class="services__inner">
+    <div class="services__head">
+      <div class="services__eyebrow">
+        {{ $d.services_eyebrow }}
+      </div>
+
+      <h2 class="services__title">
+        {{ $d.services_title }}
+      </h2>
+
+      <p class="services__description">
+        {{ $d.services_description }}
+      </p>
+    </div>
+
+    <div class="services__grid">
+      <article class="service-card">
+        <div class="service-card__top">
+          <span class="service-card__icon"></span>
+          <h3>{{ $d.service_1_title }}</h3>
+        </div>
+
+        <p>{{ $d.service_1_description }}</p>
+
+        <a
+          href="{{ $d.service_1_cta_url }}"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          {{ $d.service_1_cta_label }} <span>›</span>
+        </a>
+      </article>
+
+      <article class="service-card">
+        <div class="service-card__top">
+          <span class="service-card__icon"></span>
+          <h3>{{ $d.service_2_title }}</h3>
+        </div>
+
+        <p>{{ $d.service_2_description }}</p>
+
+        <a
+          href="{{ $d.service_2_cta_url }}"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          {{ $d.service_2_cta_label }} <span>›</span>
+        </a>
+      </article>
+
+      <article class="service-card">
+        <div class="service-card__top">
+          <span class="service-card__icon"></span>
+          <h3>{{ $d.service_3_title }}</h3>
+        </div>
+
+        <p>{{ $d.service_3_description }}</p>
+
+        <a
+          href="{{ $d.service_3_cta_url }}"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          {{ $d.service_3_cta_label }} <span>›</span>
+        </a>
+      </article>
+
+      <article class="service-card">
+        <div class="service-card__top">
+          <span class="service-card__icon"></span>
+          <h3>{{ $d.service_4_title }}</h3>
+        </div>
+
+        <p>{{ $d.service_4_description }}</p>
+
+        <a
+          href="{{ $d.service_4_cta_url }}"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          {{ $d.service_4_cta_label }} <span>›</span>
+        </a>
+      </article>
+
+      <article class="service-card">
+        <div class="service-card__top">
+          <span class="service-card__icon"></span>
+          <h3>{{ $d.service_5_title }}</h3>
+        </div>
+
+        <p>{{ $d.service_5_description }}</p>
+
+        <a
+          href="{{ $d.service_5_cta_url }}"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          {{ $d.service_5_cta_label }} <span>›</span>
+        </a>
+      </article>
+
+      <article class="service-card">
+        <div class="service-card__top">
+          <span class="service-card__icon"></span>
+          <h3>{{ $d.service_6_title }}</h3>
+        </div>
+
+        <p>{{ $d.service_6_description }}</p>
+
+        <a
+          href="{{ $d.service_6_cta_url }}"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          {{ $d.service_6_cta_label }} <span>›</span>
+        </a>
+      </article>
+
+      <article class="service-card">
+        <div class="service-card__top">
+          <span class="service-card__icon"></span>
+          <h3>{{ $d.service_7_title }}</h3>
+        </div>
+
+        <p>{{ $d.service_7_description }}</p>
+
+        <a
+          href="{{ $d.service_7_cta_url }}"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          {{ $d.service_7_cta_label }} <span>›</span>
+        </a>
+      </article>
+
+      <article class="service-card">
+        <div class="service-card__top">
+          <span class="service-card__icon"></span>
+          <h3>{{ $d.service_8_title }}</h3>
+        </div>
+
+        <p>{{ $d.service_8_description }}</p>
+
+        <a
+          href="{{ $d.service_8_cta_url }}"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          {{ $d.service_8_cta_label }} <span>›</span>
+        </a>
+      </article>
+    </div>
+  </div>
+</section>

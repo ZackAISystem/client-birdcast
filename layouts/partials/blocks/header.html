@@ -1,0 +1,36 @@
+{{ $d := .Site.Data.home }}
+
+<header class="site-header" id="site-header">
+  <div class="site-header__inner">
+    <a class="site-header__logo" href="/" aria-label="{{ $d.site_name }} home">
+      <img
+        src="{{ $d.logo_src }}"
+        alt="{{ $d.logo_alt }}"
+        class="site-header__logo-img"
+      >
+    </a>
+
+    <nav class="site-header__nav" aria-label="Main navigation">
+      <a href="{{ $d.header_menu_item_1_url }}" class="site-header__nav-link">
+        {{ $d.header_menu_item_1_label }}
+      </a>
+
+      <a href="{{ $d.header_menu_item_2_url }}" class="site-header__nav-link">
+        {{ $d.header_menu_item_2_label }}
+      </a>
+
+      <a href="{{ $d.header_menu_item_3_url }}" class="site-header__nav-link">
+        {{ $d.header_menu_item_3_label }}
+      </a>
+    </nav>
+
+    <a
+      href="{{ $d.header_cta_url }}"
+      class="site-header__cta"
+      target="_blank"
+      rel="noopener noreferrer"
+    >
+      {{ $d.header_cta_label }}
+    </a>
+  </div>
+</header>

@@ -1,0 +1,42 @@
+{{ $d := .Site.Data.home }}
+
+<section
+  class="hero"
+  id="hero"
+  aria-label="{{ $d.hero_image_alt }}"
+  style="--hero-image: url('{{ $d.hero_image }}');"
+>
+  <div class="hero__inner">
+    <div class="hero__content">
+      <div class="hero__eyebrow">
+        {{ $d.hero_eyebrow }}
+      </div>
+
+      <h1 class="hero__title">
+        {{ $d.hero_title }} <strong>{{ $d.hero_title_accent }}</strong>
+      </h1>
+
+      <p class="hero__description">
+        {{ $d.hero_description }}
+      </p>
+
+      <div class="hero__actions">
+        <a
+          href="{{ $d.hero_cta_primary_url }}"
+          class="hero__btn hero__btn--primary"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          {{ $d.hero_cta_primary_label }}
+        </a>
+
+        <a
+          href="{{ $d.hero_cta_secondary_url }}"
+          class="hero__btn hero__btn--secondary"
+        >
+          {{ $d.hero_cta_secondary_label }}
+        </a>
+      </div>
+    </div>
+  </div>
+</section>

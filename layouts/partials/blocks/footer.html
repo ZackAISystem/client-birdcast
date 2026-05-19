@@ -1,0 +1,115 @@
+{{ $d := .Site.Data.home }}
+
+<footer class="site-footer" id="contact">
+  <div class="site-footer__inner">
+    <div class="site-footer__top">
+      <div class="site-footer__brand-col">
+        <a class="site-footer__brand" href="/" aria-label="Birdcast home">
+          <img
+            src="{{ $d.footer_logo_src }}"
+            alt="{{ $d.footer_logo_alt }}"
+            class="site-footer__logo"
+          >
+        </a>
+
+        <h2 class="site-footer__title">
+          {{ $d.footer_title }}
+        </h2>
+
+        <p class="site-footer__description">
+          {{ $d.footer_description }}
+        </p>
+
+        <div class="site-footer__actions">
+          <a
+            class="site-footer__btn site-footer__btn--primary"
+            href="{{ $d.footer_cta_primary_url }}"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            {{ $d.footer_cta_primary_label }}
+          </a>
+
+          <a
+            class="site-footer__btn site-footer__btn--secondary"
+            href="{{ $d.footer_cta_secondary_url }}"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            {{ $d.footer_cta_secondary_label }}
+          </a>
+        </div>
+      </div>
+
+      <nav class="site-footer__services" aria-label="Footer services">
+        <h3>{{ $d.footer_services_title }}</h3>
+
+        <a href="{{ $d.footer_service_1_url }}" target="_blank" rel="noopener noreferrer">{{ $d.footer_service_1_label }}</a>
+        <a href="{{ $d.footer_service_2_url }}">{{ $d.footer_service_2_label }}</a>
+        <a href="{{ $d.footer_service_3_url }}" target="_blank" rel="noopener noreferrer">{{ $d.footer_service_3_label }}</a>
+        <a href="{{ $d.footer_service_4_url }}" target="_blank" rel="noopener noreferrer">{{ $d.footer_service_4_label }}</a>
+        <a href="{{ $d.footer_service_5_url }}" target="_blank" rel="noopener noreferrer">{{ $d.footer_service_5_label }}</a>
+      </nav>
+
+      <div class="site-footer__contact">
+        <h3>{{ $d.footer_contact_title }}</h3>
+
+        <a class="site-footer__contact-link" href="{{ $d.footer_phone_url }}">
+          {{ $d.footer_phone }}
+        </a>
+
+        <a class="site-footer__contact-link" href="{{ $d.footer_email_url }}">
+          {{ $d.footer_email }}
+        </a>
+
+        <p class="site-footer__hours">
+          {{ $d.footer_hours }}
+        </p>
+
+        <div class="site-footer__addresses">
+          <p>
+            <strong>{{ $d.footer_address_1_title }}</strong>
+            <span>{{ $d.footer_address_1_text }}</span>
+          </p>
+
+          <p>
+            <strong>{{ $d.footer_address_2_title }}</strong>
+            <span>{{ $d.footer_address_2_text }}</span>
+          </p>
+        </div>
+
+        <div class="site-footer__socials" aria-label="Social links">
+          <a href="{{ $d.footer_social_1_url }}" aria-label="{{ $d.footer_social_1_label }}" target="_blank" rel="noopener">
+            <img src="{{ $d.footer_social_1_icon }}" alt="">
+          </a>
+
+          <a href="{{ $d.footer_social_2_url }}" aria-label="{{ $d.footer_social_2_label }}" target="_blank" rel="noopener">
+            <img src="{{ $d.footer_social_2_icon }}" alt="">
+          </a>
+
+          <a href="{{ $d.footer_social_3_url }}" aria-label="{{ $d.footer_social_3_label }}" target="_blank" rel="noopener">
+            <img src="{{ $d.footer_social_3_icon }}" alt="">
+          </a>
+
+          <a href="{{ $d.footer_social_4_url }}" aria-label="{{ $d.footer_social_4_label }}" target="_blank" rel="noopener">
+            <img src="{{ $d.footer_social_4_icon }}" alt="">
+          </a>
+
+          <a href="{{ $d.footer_social_5_url }}" aria-label="{{ $d.footer_social_5_label }}" target="_blank" rel="noopener">
+            <img src="{{ $d.footer_social_5_icon }}" alt="">
+          </a>
+        </div>
+      </div>
+    </div>
+
+    <div class="site-footer__bottom">
+      <p>{{ $d.footer_copyright }}</p>
+
+      <div class="site-footer__legal">
+        <a href="{{ $d.footer_privacy_url }}">{{ $d.footer_privacy_label }}</a>
+        <a href="{{ $d.footer_terms_url }}">{{ $d.footer_terms_label }}</a>
+        <a href="{{ $d.footer_booking_url }}" target="_blank" rel="noopener noreferrer">{{ $d.footer_booking_label }}</a>
+      </div>
+    </div>
+  </div>
+</footer>

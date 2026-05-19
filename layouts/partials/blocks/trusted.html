@@ -1,0 +1,35 @@
+{{ $d := .Site.Data.home }}
+
+<section class="trusted" id="trusted">
+  <div class="trusted__inner">
+    <h2 class="trusted__title">
+      {{ $d.trusted_title }}
+    </h2>
+
+    <div class="trusted__logos" aria-label="Trusted by brands">
+      <div class="trusted__logo trusted__logo--neutrogena">
+        {{ $d.trusted_brand_1 }}
+      </div>
+
+      <div class="trusted__logo trusted__logo--acer">
+        {{ $d.trusted_brand_2 }}
+      </div>
+
+      <div class="trusted__logo trusted__logo--gambit">
+        {{ $d.trusted_brand_3 }}
+      </div>
+
+      <div class="trusted__logo trusted__logo--picpax">
+        {{ $d.trusted_brand_4 }}
+      </div>
+
+      <div class="trusted__logo trusted__logo--dell">
+        {{ $d.trusted_brand_5 }}
+      </div>
+
+      <div class="trusted__logo trusted__logo--johnson">
+        {{ $d.trusted_brand_6 }}
+      </div>
+    </div>
+  </div>
+</section>

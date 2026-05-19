@@ -1,0 +1,81 @@
+{{ $d := .Site.Data.home }}
+
+<section class="two-ways" id="production">
+  <div class="two-ways__inner">
+    <div class="two-ways__head">
+      <div class="two-ways__eyebrow">
+        {{ $d.two_ways_eyebrow }}
+      </div>
+
+      <h2 class="two-ways__title">
+        {{ $d.two_ways_title }}
+      </h2>
+    </div>
+
+    <div class="two-ways__grid">
+      <article
+        class="two-way-card"
+        style="--two-way-image: url('{{ $d.two_ways_card_1_image }}');"
+        aria-label="{{ $d.two_ways_card_1_alt }}"
+      >
+        <div class="two-way-card__content">
+          <h3 class="two-way-card__title">
+            {{ $d.two_ways_card_1_title }}
+          </h3>
+
+          <p class="two-way-card__description">
+            {{ $d.two_ways_card_1_description }}
+          </p>
+
+          <ul class="two-way-card__list">
+            <li>{{ $d.two_ways_card_1_point_1 }}</li>
+            <li>{{ $d.two_ways_card_1_point_2 }}</li>
+            <li>{{ $d.two_ways_card_1_point_3 }}</li>
+            <li>{{ $d.two_ways_card_1_point_4 }}</li>
+          </ul>
+
+          <a
+            href="{{ $d.two_ways_card_1_cta_url }}"
+            class="two-way-card__cta"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <span>{{ $d.two_ways_card_1_cta_label }}</span>
+            <span class="two-way-card__cta-arrow">›</span>
+          </a>
+        </div>
+      </article>
+
+      <article
+        class="two-way-card"
+        style="--two-way-image: url('{{ $d.two_ways_card_2_image }}');"
+        aria-label="{{ $d.two_ways_card_2_alt }}"
+      >
+        <div class="two-way-card__content">
+          <h3 class="two-way-card__title">
+            {{ $d.two_ways_card_2_title }}
+          </h3>
+
+          <p class="two-way-card__description">
+            {{ $d.two_ways_card_2_description }}
+          </p>
+
+          <ul class="two-way-card__list">
+            <li>{{ $d.two_ways_card_2_point_1 }}</li>
+            <li>{{ $d.two_ways_card_2_point_2 }}</li>
+            <li>{{ $d.two_ways_card_2_point_3 }}</li>
+            <li>{{ $d.two_ways_card_2_point_4 }}</li>
+          </ul>
+
+          <a
+            href="{{ $d.two_ways_card_2_cta_url }}"
+            class="two-way-card__cta"
+          >
+            <span>{{ $d.two_ways_card_2_cta_label }}</span>
+            <span class="two-way-card__cta-arrow">›</span>
+          </a>
+        </div>
+      </article>
+    </div>
+  </div>
+</section>

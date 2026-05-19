@@ -1,0 +1,288 @@
+{{ $d := .Site.Data.home }}
+
+<section class="sets" id="sets">
+  <div class="sets__inner">
+    <div class="sets__head">
+      <div class="sets__eyebrow">
+        {{ $d.sets_eyebrow }}
+      </div>
+
+      <h2 class="sets__title">
+        {{ $d.sets_title }}
+      </h2>
+
+      <p class="sets__description">
+        {{ $d.sets_description }}
+      </p>
+    </div>
+
+    <div class="sets__grid">
+      <button
+        class="set-card js-set-open"
+        type="button"
+        style="--set-image: url('{{ $d.set_1_cover }}');"
+        data-set-title="{{ $d.set_1_title }}"
+        data-set-image-1="{{ $d.set_1_image_1 }}"
+        data-set-image-2="{{ $d.set_1_image_2 }}"
+        data-set-image-3="{{ $d.set_1_image_3 }}"
+        aria-label="View {{ $d.set_1_title }} set photos"
+      >
+        <span class="set-card__content">
+          <span class="set-card__tag">{{ $d.set_1_tag }}</span>
+          <strong>{{ $d.set_1_title }}</strong>
+          <span>{{ $d.set_1_short }}</span>
+        </span>
+
+        <span class="set-card__arrow" aria-hidden="true">›</span>
+      </button>
+
+      <button
+        class="set-card js-set-open"
+        type="button"
+        style="--set-image: url('{{ $d.set_2_cover }}');"
+        data-set-title="{{ $d.set_2_title }}"
+        data-set-image-1="{{ $d.set_2_image_1 }}"
+        data-set-image-2="{{ $d.set_2_image_2 }}"
+        data-set-image-3="{{ $d.set_2_image_3 }}"
+        aria-label="View {{ $d.set_2_title }} set photos"
+      >
+        <span class="set-card__content">
+          <span class="set-card__tag">{{ $d.set_2_tag }}</span>
+          <strong>{{ $d.set_2_title }}</strong>
+          <span>{{ $d.set_2_short }}</span>
+        </span>
+
+        <span class="set-card__arrow" aria-hidden="true">›</span>
+      </button>
+
+      <button
+        class="set-card js-set-open"
+        type="button"
+        style="--set-image: url('{{ $d.set_3_cover }}');"
+        data-set-title="{{ $d.set_3_title }}"
+        data-set-image-1="{{ $d.set_3_image_1 }}"
+        data-set-image-2="{{ $d.set_3_image_2 }}"
+        data-set-image-3="{{ $d.set_3_image_3 }}"
+        aria-label="View {{ $d.set_3_title }} set photos"
+      >
+        <span class="set-card__content">
+          <span class="set-card__tag">{{ $d.set_3_tag }}</span>
+          <strong>{{ $d.set_3_title }}</strong>
+          <span>{{ $d.set_3_short }}</span>
+        </span>
+
+        <span class="set-card__arrow" aria-hidden="true">›</span>
+      </button>
+
+      <button
+        class="set-card js-set-open"
+        type="button"
+        style="--set-image: url('{{ $d.set_4_cover }}');"
+        data-set-title="{{ $d.set_4_title }}"
+        data-set-image-1="{{ $d.set_4_image_1 }}"
+        data-set-image-2="{{ $d.set_4_image_2 }}"
+        data-set-image-3="{{ $d.set_4_image_3 }}"
+        aria-label="View {{ $d.set_4_title }} set photos"
+      >
+        <span class="set-card__content">
+          <span class="set-card__tag">{{ $d.set_4_tag }}</span>
+          <strong>{{ $d.set_4_title }}</strong>
+          <span>{{ $d.set_4_short }}</span>
+        </span>
+
+        <span class="set-card__arrow" aria-hidden="true">›</span>
+      </button>
+
+      <button
+        class="set-card js-set-open"
+        type="button"
+        style="--set-image: url('{{ $d.set_5_cover }}');"
+        data-set-title="{{ $d.set_5_title }}"
+        data-set-image-1="{{ $d.set_5_image_1 }}"
+        data-set-image-2="{{ $d.set_5_image_2 }}"
+        data-set-image-3="{{ $d.set_5_image_3 }}"
+        aria-label="View {{ $d.set_5_title }} set photos"
+      >
+        <span class="set-card__content">
+          <span class="set-card__tag">{{ $d.set_5_tag }}</span>
+          <strong>{{ $d.set_5_title }}</strong>
+          <span>{{ $d.set_5_short }}</span>
+        </span>
+
+        <span class="set-card__arrow" aria-hidden="true">›</span>
+      </button>
+    </div>
+  </div>
+
+  <div class="set-modal" id="set-modal" aria-hidden="true">
+    <button class="set-modal__backdrop js-set-close" type="button" aria-label="Close set gallery"></button>
+
+    <div class="set-modal__dialog" role="dialog" aria-modal="true" aria-label="Birdcast set gallery">
+      <button class="set-modal__close js-set-close" type="button" aria-label="Close set gallery">
+        ×
+      </button>
+
+      <button class="set-modal__nav set-modal__nav--prev" type="button" aria-label="Previous photo">
+        ‹
+      </button>
+
+      <figure class="set-modal__frame">
+        <img class="set-modal__image" id="set-modal-image" src="" alt="">
+      </figure>
+
+      <button class="set-modal__nav set-modal__nav--next" type="button" aria-label="Next photo">
+        ›
+      </button>
+
+      <button
+        class="set-modal__cta"
+        id="set-modal-cta"
+        type="button"
+        data-booking-url="{{ $d.booking_system_url | default $d.booking_cta_url }}"
+        aria-label="Book this set"
+      >
+        <span>Book this set</span>
+        <strong>›</strong>
+      </button>
+
+      <div class="set-modal__dots" aria-label="Gallery navigation">
+        <button class="set-modal__dot is-active" type="button" aria-label="Photo 1"></button>
+        <button class="set-modal__dot" type="button" aria-label="Photo 2"></button>
+        <button class="set-modal__dot" type="button" aria-label="Photo 3"></button>
+      </div>
+    </div>
+  </div>
+</section>
+
+<script>
+  (function () {
+    if (window.__BIRDCAST_SETS_INIT__) return;
+    window.__BIRDCAST_SETS_INIT__ = true;
+
+    const modal = document.getElementById("set-modal");
+    if (!modal) return;
+
+    const imageEl = document.getElementById("set-modal-image");
+    const ctaEl = document.getElementById("set-modal-cta");
+
+    const triggers = document.querySelectorAll(".js-set-open");
+    const closers = document.querySelectorAll(".js-set-close");
+
+    const prevBtn = modal.querySelector(".set-modal__nav--prev");
+    const nextBtn = modal.querySelector(".set-modal__nav--next");
+    const dots = Array.from(modal.querySelectorAll(".set-modal__dot"));
+
+    let currentImages = [];
+    let currentTitle = "Birdcast set";
+    let currentIndex = 0;
+
+    function renderImage() {
+      const src = currentImages[currentIndex];
+
+      if (!src) return;
+
+      imageEl.style.opacity = "0";
+
+      setTimeout(function () {
+        imageEl.src = src;
+        imageEl.alt = currentTitle + " set photo " + (currentIndex + 1);
+        imageEl.style.opacity = "1";
+      }, 120);
+
+      dots.forEach(function (dot, index) {
+        dot.classList.toggle("is-active", index === currentIndex);
+      });
+    }
+
+    function updateCta() {
+      if (!ctaEl) return;
+
+      ctaEl.querySelector("span").textContent = "Book " + currentTitle;
+      ctaEl.setAttribute("aria-label", "Book " + currentTitle + " set");
+    }
+
+    function openSet(button) {
+      currentTitle = button.getAttribute("data-set-title") || "Birdcast set";
+
+      currentImages = [
+        button.getAttribute("data-set-image-1") || "",
+        button.getAttribute("data-set-image-2") || "",
+        button.getAttribute("data-set-image-3") || ""
+      ].filter(Boolean);
+
+      currentIndex = 0;
+
+      if (!currentImages.length) return;
+
+      updateCta();
+      renderImage();
+
+      modal.classList.add("is-open");
+      modal.setAttribute("aria-hidden", "false");
+      document.body.classList.add("set-modal-open");
+    }
+
+    function closeSet() {
+      modal.classList.remove("is-open");
+      modal.setAttribute("aria-hidden", "true");
+
+      imageEl.removeAttribute("src");
+      imageEl.alt = "";
+
+      currentImages = [];
+      currentIndex = 0;
+
+      document.body.classList.remove("set-modal-open");
+    }
+
+    function showNext() {
+      if (!currentImages.length) return;
+      currentIndex = (currentIndex + 1) % currentImages.length;
+      renderImage();
+    }
+
+    function showPrev() {
+      if (!currentImages.length) return;
+      currentIndex = (currentIndex - 1 + currentImages.length) % currentImages.length;
+      renderImage();
+    }
+
+    triggers.forEach(function (button) {
+      button.addEventListener("click", function () {
+        openSet(button);
+      });
+    });
+
+    closers.forEach(function (button) {
+      button.addEventListener("click", closeSet);
+    });
+
+    if (nextBtn) nextBtn.addEventListener("click", showNext);
+    if (prevBtn) prevBtn.addEventListener("click", showPrev);
+
+    dots.forEach(function (dot, index) {
+      dot.addEventListener("click", function () {
+        currentIndex = index;
+        renderImage();
+      });
+    });
+
+    if (ctaEl) {
+      ctaEl.addEventListener("click", function () {
+        const url = ctaEl.getAttribute("data-booking-url");
+
+        if (!url) return;
+
+        window.open(url, "_blank", "noopener,noreferrer");
+      });
+    }
+
+    document.addEventListener("keydown", function (event) {
+      if (!modal.classList.contains("is-open")) return;
+
+      if (event.key === "Escape") closeSet();
+      if (event.key === "ArrowRight") showNext();
+      if (event.key === "ArrowLeft") showPrev();
+    });
+  })();
+</script>

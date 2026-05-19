@@ -1,0 +1,102 @@
+{{ $d := .Site.Data.home }}
+
+<section class="process" id="process">
+  <div class="process__inner">
+    <div class="process__head">
+      <div class="process__eyebrow">
+        {{ $d.process_eyebrow }}
+      </div>
+
+      <h2 class="process__title">
+        {{ $d.process_title }}
+      </h2>
+
+      <p class="process__description">
+        {{ $d.process_description }}
+      </p>
+    </div>
+
+    <div class="process__steps" aria-label="Birdcast production process">
+      <div class="process-step" style="--i: 0;">
+        <div class="process-step__number">{{ $d.process_step_1_number }}</div>
+        <h3>{{ $d.process_step_1_title }}</h3>
+        <p>{{ $d.process_step_1_text }}</p>
+      </div>
+
+      <div class="process-step" style="--i: 1;">
+        <div class="process-step__number">{{ $d.process_step_2_number }}</div>
+        <h3>{{ $d.process_step_2_title }}</h3>
+        <p>{{ $d.process_step_2_text }}</p>
+      </div>
+
+      <div class="process-step" style="--i: 2;">
+        <div class="process-step__number">{{ $d.process_step_3_number }}</div>
+        <h3>{{ $d.process_step_3_title }}</h3>
+        <p>{{ $d.process_step_3_text }}</p>
+      </div>
+
+      <div class="process-step" style="--i: 3;">
+        <div class="process-step__number">{{ $d.process_step_4_number }}</div>
+        <h3>{{ $d.process_step_4_title }}</h3>
+        <p>{{ $d.process_step_4_text }}</p>
+      </div>
+
+      <div class="process-step" style="--i: 4;">
+        <div class="process-step__number">{{ $d.process_step_5_number }}</div>
+        <h3>{{ $d.process_step_5_title }}</h3>
+        <p>{{ $d.process_step_5_text }}</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<script>
+  (function () {
+    const section = document.querySelector(".process");
+    if (!section) return;
+
+    const steps = Array.from(section.querySelectorAll(".process-step"));
+    let activeIndex = 0;
+    let timer = null;
+
+    function setActiveStep(index) {
+      steps.forEach(function (step, i) {
+        step.classList.toggle("is-active", i === index);
+      });
+    }
+
+    function startProcessAnimation() {
+      section.classList.add("is-visible");
+      setActiveStep(0);
+
+      if (timer) return;
+
+      timer = setInterval(function () {
+        activeIndex = (activeIndex + 1) % steps.length;
+        setActiveStep(activeIndex);
+      }, 1250);
+    }
+
+    function stopProcessAnimation() {
+      if (timer) {
+        clearInterval(timer);
+        timer = null;
+      }
+    }
+
+    const observer = new IntersectionObserver(
+      function (entries) {
+        entries.forEach(function (entry) {
+          if (entry.isIntersecting) {
+            startProcessAnimation();
+          } else {
+            stopProcessAnimation();
+          }
+        });
+      },
+      { threshold: 0.32 }
+    );
+
+    observer.observe(section);
+  })();
+</script>

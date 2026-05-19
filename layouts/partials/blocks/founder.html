@@ -1,0 +1,187 @@
+{{ $d := .Site.Data.home }}
+
+<section class="founder" id="founder">
+  <div class="founder__inner">
+    <div class="founder__media">
+      <img
+        class="founder__image"
+        src="{{ $d.founder_image }}"
+        alt="{{ $d.founder_image_alt }}"
+        loading="lazy"
+      >
+
+      <div class="founder__badge">
+        <strong>{{ $d.founder_name }}</strong>
+        <span>{{ $d.founder_role }}</span>
+      </div>
+    </div>
+
+    <div class="founder__content">
+      <div class="founder__eyebrow">
+        {{ $d.founder_eyebrow }}
+      </div>
+
+      <h2 class="founder__title">
+        {{ $d.founder_title }}
+      </h2>
+
+      <div class="founder__text">
+        <p>{{ $d.founder_paragraph_1 }}</p>
+        <p>{{ $d.founder_paragraph_2 }}</p>
+      </div>
+
+      <div class="founder__quote">
+        {{ $d.founder_quote }}
+      </div>
+
+      <div class="founder__stats">
+        <div class="founder-stat">
+          <strong>{{ $d.founder_stat_1_value }}</strong>
+          <span>{{ $d.founder_stat_1_label }}</span>
+        </div>
+
+        <div class="founder-stat">
+          <strong>{{ $d.founder_stat_2_value }}</strong>
+          <span>{{ $d.founder_stat_2_label }}</span>
+        </div>
+
+        <div class="founder-stat">
+          <strong>{{ $d.founder_stat_3_value }}</strong>
+          <span>{{ $d.founder_stat_3_label }}</span>
+        </div>
+      </div>
+
+      <button
+        class="founder__cta"
+        type="button"
+        id="founder-consultation-toggle"
+      >
+        <span>{{ $d.founder_cta_label }}</span>
+        <span class="founder__cta-arrow">›</span>
+      </button>
+
+      <form class="founder-form" id="founder-consultation-form" hidden>
+        <div class="founder-form__top">
+          <div>
+            <h3>Book a free consultation</h3>
+            <p>Tell us what you want to create. The Birdcast team will contact you to discuss the best setup.</p>
+          </div>
+
+          <button
+            class="founder-form__close"
+            type="button"
+            id="founder-consultation-close"
+            aria-label="Close consultation form"
+          >
+            ×
+          </button>
+        </div>
+
+        <div class="founder-form__grid">
+          <label class="founder-form__field">
+            <span>Name</span>
+            <input
+              type="text"
+              name="name"
+              placeholder="Your name"
+              required
+            >
+          </label>
+
+          <label class="founder-form__field">
+            <span>Email</span>
+            <input
+              type="email"
+              name="email"
+              placeholder="you@example.com"
+              required
+            >
+          </label>
+
+          <label class="founder-form__field">
+            <span>Phone number</span>
+            <input
+              type="tel"
+              name="phone"
+              placeholder="+971..."
+              required
+            >
+          </label>
+
+          <label class="founder-form__field founder-form__field--message">
+            <span>Short message</span>
+            <textarea
+              name="message"
+              rows="4"
+              placeholder="Tell us briefly about your podcast, video or content idea"
+              required
+            ></textarea>
+          </label>
+        </div>
+
+        <button class="founder-form__submit" type="submit">
+          Send Consultation Request
+          <span>›</span>
+        </button>
+      </form>
+    </div>
+  </div>
+</section>
+
+<script>
+  (function () {
+    const form = document.getElementById("founder-consultation-form");
+    const toggle = document.getElementById("founder-consultation-toggle");
+    const close = document.getElementById("founder-consultation-close");
+
+    if (!form || !toggle) return;
+
+    toggle.addEventListener("click", function () {
+      form.hidden = false;
+      form.classList.add("is-open");
+
+      toggle.classList.add("is-hidden");
+      toggle.setAttribute("aria-hidden", "true");
+
+      setTimeout(function () {
+        form.scrollIntoView({ behavior: "smooth", block: "center" });
+      }, 80);
+    });
+
+    if (close) {
+      close.addEventListener("click", function () {
+        form.classList.remove("is-open");
+        form.hidden = true;
+
+        toggle.classList.remove("is-hidden");
+        toggle.removeAttribute("aria-hidden");
+
+        setTimeout(function () {
+          toggle.scrollIntoView({ behavior: "smooth", block: "center" });
+        }, 80);
+      });
+    }
+
+    form.addEventListener("submit", function (event) {
+      event.preventDefault();
+
+      const data = new FormData(form);
+      const name = String(data.get("name") || "").trim();
+      const email = String(data.get("email") || "").trim();
+      const phone = String(data.get("phone") || "").trim();
+      const message = String(data.get("message") || "").trim();
+
+      const text = [
+        "Founder Consultation Request",
+        "",
+        "Name: " + name,
+        "Email: " + email,
+        "Phone: " + phone,
+        "Message: " + message
+      ].join("\n");
+
+      const url = "https://wa.me/971561886153?text=" + encodeURIComponent(text);
+      window.open(url, "_blank", "noopener,noreferrer");
+    });
+  })();
+</script>

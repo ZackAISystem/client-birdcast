@@ -1,0 +1,105 @@
+{{ $d := .Site.Data.home }}
+
+<section class="showreel" id="work">
+  <div class="showreel__inner">
+    <div class="showreel__head">
+      <div class="showreel__eyebrow">
+        {{ $d.showreel_eyebrow }}
+      </div>
+
+      <h2 class="showreel__title">
+        {{ $d.showreel_title }}
+      </h2>
+    </div>
+
+    <button
+      class="showreel__main js-video-open"
+      type="button"
+      data-video="{{ $d.showreel_main_video }}"
+      aria-label="{{ $d.showreel_main_alt }}"
+      style="--showreel-image: url('{{ $d.showreel_main_image }}');"
+    >
+      <div class="showreel__main-content">
+        {{ with $d.showreel_main_title }}
+          <h3 class="showreel__main-title">
+            {{ . }}
+          </h3>
+        {{ end }}
+
+        {{ with $d.showreel_main_description }}
+          <p class="showreel__main-description">
+            {{ . }}
+          </p>
+        {{ end }}
+
+        <div class="showreel__main-pill">
+          <span>{{ $d.showreel_main_label_left }}</span>
+          <strong>{{ $d.showreel_main_label_right }}</strong>
+        </div>
+      </div>
+
+      <span class="showreel__play" aria-hidden="true">
+        <span class="showreel__play-icon"></span>
+      </span>
+    </button>
+  </div>
+
+  <div class="video-modal" id="video-modal" aria-hidden="true">
+    <button class="video-modal__backdrop js-video-close" type="button" aria-label="Close video"></button>
+
+    <div class="video-modal__dialog" role="dialog" aria-modal="true" aria-label="Birdcast video player">
+      <button class="video-modal__close js-video-close" type="button" aria-label="Close video">
+        ×
+      </button>
+
+      <video
+        class="video-modal__video"
+        id="video-modal-player"
+        controls
+        playsinline
+        muted
+        preload="metadata"
+      ></video>
+    </div>
+  </div>
+</section>
+
+<script>
+  (function () {
+    const player = document.getElementById("video-modal-player");
+    const openers = document.querySelectorAll(".showreel .js-video-open");
+
+    if (!player) return;
+
+    function forceMutedDefault() {
+      player.defaultMuted = true;
+      player.muted = true;
+    }
+
+    forceMutedDefault();
+
+    openers.forEach(function (button) {
+      button.addEventListener("click", function () {
+        forceMutedDefault();
+
+        setTimeout(forceMutedDefault, 0);
+        setTimeout(forceMutedDefault, 80);
+        setTimeout(forceMutedDefault, 220);
+        setTimeout(forceMutedDefault, 420);
+      });
+    });
+
+    const observer = new MutationObserver(function (mutations) {
+      mutations.forEach(function (mutation) {
+        if (mutation.type === "attributes" && mutation.attributeName === "src") {
+          forceMutedDefault();
+        }
+      });
+    });
+
+    observer.observe(player, {
+      attributes: true,
+      attributeFilter: ["src"]
+    });
+  })();
+</script>

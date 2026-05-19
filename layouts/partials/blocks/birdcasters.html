@@ -1,0 +1,383 @@
+{{ $d := .Site.Data.home }}
+
+<section class="birdcasters" id="video-production-work">
+  <div class="birdcasters__inner">
+    <div class="birdcasters__head">
+      <div class="birdcasters__head-left">
+        <div class="birdcasters__eyebrow">
+          {{ $d.birdcasters_eyebrow }}
+        </div>
+
+        <h2 class="birdcasters__title">
+          {{ $d.birdcasters_title }}
+        </h2>
+      </div>
+
+      <p class="birdcasters__description">
+        {{ $d.birdcasters_description }}
+      </p>
+    </div>
+
+    <div class="birdcasters__cards">
+      <button
+        class="birdcasters-card birdcasters-card--video"
+        type="button"
+        style="--birdcasters-image: url('{{ $d.birdcasters_card_1_image }}');"
+        data-video="{{ $d.birdcasters_card_1_video }}"
+        aria-label="Play {{ $d.birdcasters_card_1_title }}"
+      >
+        <span class="birdcasters-card__play" aria-hidden="true"><span></span></span>
+        <span class="birdcasters-card__content">
+          <span class="birdcasters-card__title">{{ $d.birdcasters_card_1_title }}</span>
+          <span class="birdcasters-card__text">{{ $d.birdcasters_card_1_text }}</span>
+        </span>
+      </button>
+
+      <button
+        class="birdcasters-card birdcasters-card--video"
+        type="button"
+        style="--birdcasters-image: url('{{ $d.birdcasters_card_2_image }}');"
+        data-video="{{ $d.birdcasters_card_2_video }}"
+        aria-label="Play {{ $d.birdcasters_card_2_title }}"
+      >
+        <span class="birdcasters-card__play" aria-hidden="true"><span></span></span>
+        <span class="birdcasters-card__content">
+          <span class="birdcasters-card__title">{{ $d.birdcasters_card_2_title }}</span>
+          <span class="birdcasters-card__text">{{ $d.birdcasters_card_2_text }}</span>
+        </span>
+      </button>
+
+      <button
+        class="birdcasters-card birdcasters-card--video"
+        type="button"
+        style="--birdcasters-image: url('{{ $d.birdcasters_card_3_image }}');"
+        data-video="{{ $d.birdcasters_card_3_video }}"
+        aria-label="Play {{ $d.birdcasters_card_3_title }}"
+      >
+        <span class="birdcasters-card__play" aria-hidden="true"><span></span></span>
+        <span class="birdcasters-card__content">
+          <span class="birdcasters-card__title">{{ $d.birdcasters_card_3_title }}</span>
+          <span class="birdcasters-card__text">{{ $d.birdcasters_card_3_text }}</span>
+        </span>
+      </button>
+
+      <button
+        class="birdcasters-card birdcasters-card--video"
+        type="button"
+        style="--birdcasters-image: url('{{ $d.birdcasters_card_4_image }}');"
+        data-video="{{ $d.birdcasters_card_4_video }}"
+        aria-label="Play {{ $d.birdcasters_card_4_title }}"
+      >
+        <span class="birdcasters-card__play" aria-hidden="true"><span></span></span>
+        <span class="birdcasters-card__content">
+          <span class="birdcasters-card__title">{{ $d.birdcasters_card_4_title }}</span>
+          <span class="birdcasters-card__text">{{ $d.birdcasters_card_4_text }}</span>
+        </span>
+      </button>
+    </div>
+
+    <section class="google-reviews" aria-label="Google Reviews">
+      <div class="google-reviews__panel">
+        <div class="google-reviews__summary">
+          <div class="google-reviews__eyebrow">
+            {{ $d.reviews_eyebrow | default "Google Reviews" }}
+          </div>
+
+          <h3 class="google-reviews__title">
+            {{ $d.reviews_title | default "Trusted by creators, teams and founders" }}
+          </h3>
+
+          <div class="google-reviews__rating" aria-label="{{ $d.reviews_rating | default "5.0" }} star rating">
+            <span class="google-reviews__score">{{ $d.reviews_rating | default "5.0" }}</span>
+
+            <span class="google-reviews__stars" aria-hidden="true">
+              ★★★★★
+            </span>
+
+            <span class="google-reviews__label">
+              {{ $d.reviews_rating_label | default "65 Google Reviews" }}
+            </span>
+          </div>
+
+          <p class="google-reviews__note">
+            {{ $d.reviews_note | default "Real client feedback from Birdcast Podcast Studio." }}
+          </p>
+
+          <a
+            class="google-reviews__link"
+            href="{{ $d.reviews_google_url | default "https://www.google.com/search?q=Birdcast+Podcast+Studio+-+DIP+Dubai+reviews" }}"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            {{ $d.reviews_google_cta | default "Read more on Google" }}
+            <span>›</span>
+          </a>
+        </div>
+
+        <div class="google-reviews__grid">
+          <a
+            class="google-review-card"
+            href="{{ $d.reviews_google_url | default "https://www.google.com/search?q=Birdcast+Podcast+Studio+-+DIP+Dubai+reviews" }}"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <div class="google-review-card__stars" aria-hidden="true">★★★★★</div>
+            <p>“{{ $d.review_1_text }}”</p>
+            <div class="google-review-card__author">
+              <strong>{{ $d.review_1_name }}</strong>
+              <span>{{ $d.review_1_meta }}</span>
+            </div>
+          </a>
+
+          <a
+            class="google-review-card"
+            href="{{ $d.reviews_google_url | default "https://www.google.com/search?q=Birdcast+Podcast+Studio+-+DIP+Dubai+reviews" }}"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <div class="google-review-card__stars" aria-hidden="true">★★★★★</div>
+            <p>“{{ $d.review_2_text }}”</p>
+            <div class="google-review-card__author">
+              <strong>{{ $d.review_2_name }}</strong>
+              <span>{{ $d.review_2_meta }}</span>
+            </div>
+          </a>
+
+          <a
+            class="google-review-card"
+            href="{{ $d.reviews_google_url | default "https://www.google.com/search?q=Birdcast+Podcast+Studio+-+DIP+Dubai+reviews" }}"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <div class="google-review-card__stars" aria-hidden="true">★★★★★</div>
+            <p>“{{ $d.review_3_text }}”</p>
+            <div class="google-review-card__author">
+              <strong>{{ $d.review_3_name }}</strong>
+              <span>{{ $d.review_3_meta }}</span>
+            </div>
+          </a>
+
+          <a
+            class="google-review-card"
+            href="{{ $d.reviews_google_url | default "https://www.google.com/search?q=Birdcast+Podcast+Studio+-+DIP+Dubai+reviews" }}"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <div class="google-review-card__stars" aria-hidden="true">★★★★★</div>
+            <p>“{{ $d.review_4_text }}”</p>
+            <div class="google-review-card__author">
+              <strong>{{ $d.review_4_name }}</strong>
+              <span>{{ $d.review_4_meta }}</span>
+            </div>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <div class="birdcasters__cta">
+      <button class="birdcasters__cta-btn" type="button" id="birdcasters-form-toggle">
+        {{ $d.birdcasters_form_cta_label | default "Start a Video Project" }}
+        <span>›</span>
+      </button>
+    </div>
+
+    <form class="birdcasters-form" id="birdcasters-form" hidden>
+      <div class="birdcasters-form__top">
+        <div class="birdcasters-form__top-row">
+          <div class="birdcasters-form__top-copy">
+            <h3>{{ $d.birdcasters_form_title | default "Start a Video Project" }}</h3>
+            <p>{{ $d.birdcasters_form_description | default "Tell us what you want to film and the Birdcast team will contact you to discuss the best production setup." }}</p>
+          </div>
+
+          <button
+            class="birdcasters-form__close"
+            type="button"
+            id="birdcasters-form-close"
+            aria-label="Close enquiry form"
+          >
+            ×
+          </button>
+        </div>
+      </div>
+
+      <div class="birdcasters-form__grid">
+        <label class="birdcasters-form__field">
+          <span>Name</span>
+          <input
+            type="text"
+            name="name"
+            placeholder="{{ $d.birdcasters_form_name_placeholder | default "Your name" }}"
+            required
+          >
+        </label>
+
+        <label class="birdcasters-form__field">
+          <span>Phone number</span>
+          <input
+            type="tel"
+            name="phone"
+            placeholder="{{ $d.birdcasters_form_phone_placeholder | default "+971..." }}"
+            required
+          >
+        </label>
+
+        <label class="birdcasters-form__field">
+          <span>Email</span>
+          <input
+            type="email"
+            name="email"
+            placeholder="{{ $d.birdcasters_form_email_placeholder | default "you@example.com" }}"
+            required
+          >
+        </label>
+
+        <label class="birdcasters-form__field birdcasters-form__field--message">
+          <span>Message</span>
+          <textarea
+            name="message"
+            rows="5"
+            placeholder="{{ $d.birdcasters_form_message_placeholder | default "Tell us what you want to create" }}"
+            required
+          ></textarea>
+        </label>
+      </div>
+
+      <button class="birdcasters-form__submit" type="submit">
+        {{ $d.birdcasters_form_submit_label | default "Send Production Enquiry" }}
+        <span>›</span>
+      </button>
+    </form>
+  </div>
+
+  <div class="birdcasters-modal" id="birdcasters-modal" aria-hidden="true">
+    <div class="birdcasters-modal__backdrop" data-birdcasters-close></div>
+
+    <div class="birdcasters-modal__dialog" role="dialog" aria-modal="true" aria-label="Birdcast video">
+      <button
+        class="birdcasters-modal__close"
+        type="button"
+        aria-label="Close video"
+        data-birdcasters-close
+      >
+        ×
+      </button>
+
+      <video
+        class="birdcasters-modal__video"
+        id="birdcasters-modal-video"
+        controls
+        playsinline
+      ></video>
+    </div>
+  </div>
+</section>
+
+<script>
+  (function () {
+    const modal = document.getElementById("birdcasters-modal");
+    const modalVideo = document.getElementById("birdcasters-modal-video");
+    const triggers = document.querySelectorAll(".birdcasters-card--video");
+    const closers = document.querySelectorAll("[data-birdcasters-close]");
+    const form = document.getElementById("birdcasters-form");
+    const formToggle = document.getElementById("birdcasters-form-toggle");
+    const formClose = document.getElementById("birdcasters-form-close");
+
+    if (modal && modalVideo && triggers.length) {
+      function openVideo(src) {
+        if (!src) return;
+
+        modal.classList.add("is-open");
+        modal.setAttribute("aria-hidden", "false");
+
+        modalVideo.pause();
+        modalVideo.removeAttribute("src");
+        modalVideo.load();
+
+        modalVideo.src = src;
+        modalVideo.load();
+
+        const playPromise = modalVideo.play();
+        if (playPromise && typeof playPromise.catch === "function") {
+          playPromise.catch(function () {});
+        }
+
+        document.documentElement.classList.add("birdcasters-modal-open");
+      }
+
+      function closeVideo() {
+        modal.classList.remove("is-open");
+        modal.setAttribute("aria-hidden", "true");
+
+        modalVideo.pause();
+        modalVideo.removeAttribute("src");
+        modalVideo.load();
+
+        document.documentElement.classList.remove("birdcasters-modal-open");
+      }
+
+      triggers.forEach(function (button) {
+        button.addEventListener("click", function () {
+          openVideo(button.dataset.video);
+        });
+      });
+
+      closers.forEach(function (button) {
+        button.addEventListener("click", closeVideo);
+      });
+
+      document.addEventListener("keydown", function (event) {
+        if (event.key === "Escape" && modal.classList.contains("is-open")) {
+          closeVideo();
+        }
+      });
+    }
+
+    if (form && formToggle) {
+      formToggle.addEventListener("click", function () {
+        form.hidden = false;
+        form.classList.add("is-open");
+        formToggle.hidden = true;
+
+        setTimeout(function () {
+          form.scrollIntoView({ behavior: "smooth", block: "center" });
+        }, 80);
+      });
+    }
+
+    if (form && formToggle && formClose) {
+      formClose.addEventListener("click", function () {
+        form.classList.remove("is-open");
+        form.hidden = true;
+        formToggle.hidden = false;
+
+        setTimeout(function () {
+          formToggle.scrollIntoView({ behavior: "smooth", block: "center" });
+        }, 80);
+      });
+    }
+
+    if (form) {
+      form.addEventListener("submit", function (event) {
+        event.preventDefault();
+
+        const data = new FormData(form);
+        const name = String(data.get("name") || "").trim();
+        const phone = String(data.get("phone") || "").trim();
+        const email = String(data.get("email") || "").trim();
+        const message = String(data.get("message") || "").trim();
+
+        const text = [
+          "Video Production Enquiry",
+          "",
+          "Name: " + name,
+          "Phone: " + phone,
+          "Email: " + email,
+          "Message: " + message
+        ].join("\n");
+
+        const url = "https://wa.me/971561886153?text=" + encodeURIComponent(text);
+        window.open(url, "_blank", "noopener,noreferrer");
+      });
+    }
+  })();
+</script>

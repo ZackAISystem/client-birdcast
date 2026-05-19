@@ -1,0 +1,11 @@
+public/
+resources/_gen/
+.hugo_build.lock
+.DS_Store
+node_modules/
+.env
+
+# Large video files are hosted outside GitHub
+static/video/
+*.mp4
+*.mov

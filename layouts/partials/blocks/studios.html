@@ -1,0 +1,191 @@
+{{ $d := .Site.Data.home }}
+
+<section class="studios" id="studios">
+  <div class="studios__inner">
+    <div class="studios__head">
+      <div class="studios__eyebrow">
+        {{ $d.studios_eyebrow }}
+      </div>
+
+      <h2 class="studios__title">
+        {{ $d.studios_title }}
+      </h2>
+
+      <p class="studios__description">
+        {{ $d.studios_description }}
+      </p>
+    </div>
+
+    <div class="studios__list">
+      <article
+        class="studio-card"
+        style="--studio-image: url('{{ $d.studio_1_image }}');"
+        aria-label="{{ $d.studio_1_alt }}"
+      >
+        <div class="studio-card__content">
+          <span class="studio-card__tag">{{ $d.studio_1_tag }}</span>
+
+          <h3 class="studio-card__title">
+            {{ $d.studio_1_title }}
+          </h3>
+
+          <p class="studio-card__address">
+            {{ $d.studio_1_address }}
+          </p>
+
+          <div class="studio-card__facts">
+            <div class="studio-card__fact-group">
+              <div class="studio-card__fact-item">
+                <strong>{{ $d.studio_1_hours }}</strong>
+                <span>{{ $d.studio_1_hours_note }}</span>
+              </div>
+
+              <div class="studio-card__fact-item">
+                <strong>{{ $d.studio_1_feature }}</strong>
+                <span>{{ $d.studio_1_feature_note }}</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="studio-card__actions">
+            <a
+              class="studio-card__cta"
+              href="{{ $d.studio_1_cta_url }}"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <span>{{ $d.studio_1_cta_label }}</span>
+              <span class="studio-card__arrow">›</span>
+            </a>
+
+            <details class="studio-card__details">
+              <summary>{{ $d.studio_1_details_label }}</summary>
+
+              <div class="studio-card__panel">
+                <button
+                  class="studio-card__panel-close"
+                  type="button"
+                  aria-label="Close studio details"
+                  onclick="this.closest('details').removeAttribute('open')"
+                >
+                  ×
+                </button>
+
+                <div class="studio-card__panel-inner">
+                  <span class="studio-card__panel-kicker">{{ $d.studio_1_tag }}</span>
+
+                  <h4>{{ $d.studio_1_details_title }}</h4>
+                  <p>{{ $d.studio_1_details_text }}</p>
+
+                  <ul>
+                    <li>{{ $d.studio_1_details_point_1 }}</li>
+                    <li>{{ $d.studio_1_details_point_2 }}</li>
+                    <li>{{ $d.studio_1_details_point_3 }}</li>
+                    <li>{{ $d.studio_1_details_point_4 }}</li>
+                    <li>{{ $d.studio_1_details_point_5 }}</li>
+                    <li>{{ $d.studio_1_details_point_6 }}</li>
+                  </ul>
+
+                  <a
+                    class="studio-card__panel-cta"
+                    href="{{ $d.studio_1_cta_url }}"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    {{ $d.studio_1_cta_label }}
+                    <span>›</span>
+                  </a>
+                </div>
+              </div>
+            </details>
+          </div>
+        </div>
+      </article>
+
+      <article
+        class="studio-card"
+        style="--studio-image: url('{{ $d.studio_2_image }}');"
+        aria-label="{{ $d.studio_2_alt }}"
+      >
+        <div class="studio-card__content">
+          <span class="studio-card__tag">{{ $d.studio_2_tag }}</span>
+
+          <h3 class="studio-card__title">
+            {{ $d.studio_2_title }}
+          </h3>
+
+          <p class="studio-card__address">
+            {{ $d.studio_2_address }}
+          </p>
+
+          <div class="studio-card__facts">
+            <div class="studio-card__fact-group">
+              <div class="studio-card__fact-item">
+                <strong>{{ $d.studio_2_hours }}</strong>
+                <span>{{ $d.studio_2_hours_note }}</span>
+              </div>
+
+              <div class="studio-card__fact-item">
+                <strong>{{ $d.studio_2_feature }}</strong>
+                <span>{{ $d.studio_2_feature_note }}</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="studio-card__actions">
+            <a
+              class="studio-card__cta"
+              href="{{ $d.studio_2_cta_url }}"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <span>{{ $d.studio_2_cta_label }}</span>
+              <span class="studio-card__arrow">›</span>
+            </a>
+
+            <details class="studio-card__details">
+              <summary>{{ $d.studio_2_details_label }}</summary>
+
+              <div class="studio-card__panel">
+                <button
+                  class="studio-card__panel-close"
+                  type="button"
+                  aria-label="Close studio details"
+                  onclick="this.closest('details').removeAttribute('open')"
+                >
+                  ×
+                </button>
+
+                <div class="studio-card__panel-inner">
+                  <span class="studio-card__panel-kicker">{{ $d.studio_2_tag }}</span>
+
+                  <h4>{{ $d.studio_2_details_title }}</h4>
+                  <p>{{ $d.studio_2_details_text }}</p>
+
+                  <ul>
+                    <li>{{ $d.studio_2_details_point_1 }}</li>
+                    <li>{{ $d.studio_2_details_point_2 }}</li>
+                    <li>{{ $d.studio_2_details_point_3 }}</li>
+                    <li>{{ $d.studio_2_details_point_4 }}</li>
+                    <li>{{ $d.studio_2_details_point_5 }}</li>
+                    <li>{{ $d.studio_2_details_point_6 }}</li>
+                  </ul>
+
+                  <a
+                    class="studio-card__panel-cta"
+                    href="{{ $d.studio_2_cta_url }}"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    {{ $d.studio_2_cta_label }}
+                    <span>›</span>
+                  </a>
+                </div>
+              </div>
+            </details>
+          </div>
+        </div>
+      </article>
+    </div>
+  </div>
+</section>

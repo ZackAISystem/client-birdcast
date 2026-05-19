@@ -1,0 +1,28 @@
+{{ $d := .Site.Data.home }}
+
+<section class="booking" id="booking">
+  <div class="booking__inner">
+    <div
+      class="booking__banner"
+      style="--booking-image: url('{{ $d.booking_image }}');"
+      aria-label="{{ $d.booking_image_alt }}"
+    >
+      <div class="booking__content">
+        <h2 class="booking__title">
+          {{ $d.booking_title }}
+        </h2>
+
+        <a
+          class="booking__cta"
+          href="{{ $d.booking_cta_url }}"
+          target="_blank"
+          rel="noopener noreferrer"
+          aria-label="{{ $d.booking_cta_label }}"
+        >
+          <span>{{ $d.booking_cta_label }}</span>
+          <span class="booking__cta-arrow">›</span>
+        </a>
+      </div>
+    </div>
+  </div>
+</section>
