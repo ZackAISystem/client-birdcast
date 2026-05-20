@@ -58,7 +58,7 @@
   "showreel_main_label_left": "Birdcast Showreel",
   "showreel_main_label_right": "Studio · Production · Content",
   "showreel_main_image": "/img/showreel-main.jpg",
-  "showreel_main_video": "/video/showreel-main.mp4",
+  "showreel_main_video": "https://iframe.videodelivery.net/0fd957ea356b0a7e36ebd569f2e8b3b4",
   "showreel_main_alt": "Birdcast showreel preview with studio background",
 
   "sets_eyebrow": "Podcast sets",
@@ -228,25 +228,25 @@
   "birdcasters_card_1_title": "Jason Derulo Interview",
   "birdcasters_card_1_text": "Artist conversation filmed on Birdcast podcast sets.",
   "birdcasters_card_1_image": "/img/birdcasters-creator.jpg",
-  "birdcasters_card_1_video": "/video/birdcasters-creator.mp4",
+  "birdcasters_card_1_video": "https://iframe.videodelivery.net/a957f5527050d94fb002da050818a465",
   "birdcasters_card_1_alt": "Jason Derulo interview filmed at Birdcast",
 
   "birdcasters_card_2_title": "Company Stories",
   "birdcasters_card_2_text": "Clear video content for teams and audiences.",
   "birdcasters_card_2_image": "/img/birdcasters-team.jpg",
-  "birdcasters_card_2_video": "/video/birdcasters-team.mp4",
+  "birdcasters_card_2_video": "https://iframe.videodelivery.net/d2526d784b438da28dfc4857cdb22066",
   "birdcasters_card_2_alt": "Company video content produced by Birdcast",
 
   "birdcasters_card_3_title": "Branded Content",
   "birdcasters_card_3_text": "Studio content for campaigns and launches.",
   "birdcasters_card_3_image": "/img/birdcasters-brand.jpg",
-  "birdcasters_card_3_video": "/video/birdcasters-brand.mp4",
+  "birdcasters_card_3_video": "https://iframe.videodelivery.net/df58fefdcf17658cc5c303df4595103d",
   "birdcasters_card_3_alt": "Branded content filmed at Birdcast",
 
   "birdcasters_card_4_title": "Bacary Sagna Podcast",
   "birdcasters_card_4_text": "A football career conversation filmed on set.",
   "birdcasters_card_4_image": "/img/birdcasters-athlete.jpg",
-  "birdcasters_card_4_video": "/video/birdcasters-athlete.mp4",
+  "birdcasters_card_4_video": "https://iframe.videodelivery.net/b0830beab0d0823b2e575cf055df5bd7",
   "birdcasters_card_4_alt": "Bacary Sagna podcast filmed at Birdcast",
 
   "birdcasters_form_title": "Start a Video Project",

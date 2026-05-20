@@ -52,54 +52,77 @@
         ×
       </button>
 
-      <video
+      <iframe
         class="video-modal__video"
         id="video-modal-player"
-        controls
-        playsinline
-        muted
-        preload="metadata"
-      ></video>
+        title="Birdcast video player"
+        allow="accelerometer; gyroscope; autoplay; encrypted-media; picture-in-picture;"
+        allowfullscreen
+        loading="lazy"
+      ></iframe>
     </div>
   </div>
 </section>
 
 <script>
   (function () {
+    const modal = document.getElementById("video-modal");
     const player = document.getElementById("video-modal-player");
     const openers = document.querySelectorAll(".showreel .js-video-open");
+    const closers = document.querySelectorAll(".showreel .js-video-close");
 
-    if (!player) return;
+    if (!modal || !player || !openers.length) return;
 
-    function forceMutedDefault() {
-      player.defaultMuted = true;
-      player.muted = true;
+    function buildStreamUrl(src) {
+      if (!src) return "";
+
+      const cleanSrc = String(src).trim();
+
+      if (cleanSrc.indexOf("iframe.videodelivery.net") !== -1) {
+        return cleanSrc.indexOf("?") === -1
+          ? cleanSrc + "?autoplay=true&muted=true"
+          : cleanSrc + "&autoplay=true&muted=true";
+      }
+
+      return cleanSrc;
     }
 
-    forceMutedDefault();
+    function openVideo(src) {
+      const videoUrl = buildStreamUrl(src);
+      if (!videoUrl) return;
+
+      modal.classList.add("is-open");
+      modal.setAttribute("aria-hidden", "false");
+
+      player.removeAttribute("src");
+      player.setAttribute("src", videoUrl);
+
+      document.documentElement.classList.add("video-modal-open");
+    }
+
+    function closeVideo() {
+      modal.classList.remove("is-open");
+      modal.setAttribute("aria-hidden", "true");
+
+      player.removeAttribute("src");
+
+      document.documentElement.classList.remove("video-modal-open");
+    }
 
     openers.forEach(function (button) {
       button.addEventListener("click", function () {
-        forceMutedDefault();
-
-        setTimeout(forceMutedDefault, 0);
-        setTimeout(forceMutedDefault, 80);
-        setTimeout(forceMutedDefault, 220);
-        setTimeout(forceMutedDefault, 420);
+        openVideo(button.dataset.video);
       });
     });
 
-    const observer = new MutationObserver(function (mutations) {
-      mutations.forEach(function (mutation) {
-        if (mutation.type === "attributes" && mutation.attributeName === "src") {
-          forceMutedDefault();
-        }
-      });
+    closers.forEach(function (button) {
+      button.addEventListener("click", closeVideo);
     });
 
-    observer.observe(player, {
-      attributes: true,
-      attributeFilter: ["src"]
+    document.addEventListener("keydown", function (event) {
+      if (event.key === "Escape" && modal.classList.contains("is-open")) {
+        closeVideo();
+      }
     });
   })();
 </script>

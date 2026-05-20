@@ -262,12 +262,14 @@
         ×
       </button>
 
-      <video
+      <iframe
         class="birdcasters-modal__video"
         id="birdcasters-modal-video"
-        controls
-        playsinline
-      ></video>
+        title="Birdcast video"
+        allow="accelerometer; gyroscope; autoplay; encrypted-media; picture-in-picture;"
+        allowfullscreen
+        loading="lazy"
+      ></iframe>
     </div>
   </div>
 </section>
@@ -275,31 +277,37 @@
 <script>
   (function () {
     const modal = document.getElementById("birdcasters-modal");
-    const modalVideo = document.getElementById("birdcasters-modal-video");
+    const modalFrame = document.getElementById("birdcasters-modal-video");
     const triggers = document.querySelectorAll(".birdcasters-card--video");
     const closers = document.querySelectorAll("[data-birdcasters-close]");
     const form = document.getElementById("birdcasters-form");
     const formToggle = document.getElementById("birdcasters-form-toggle");
     const formClose = document.getElementById("birdcasters-form-close");
 
-    if (modal && modalVideo && triggers.length) {
+    if (modal && modalFrame && triggers.length) {
+      function buildStreamUrl(src) {
+        if (!src) return "";
+
+        const cleanSrc = String(src).trim();
+
+        if (cleanSrc.indexOf("iframe.videodelivery.net") !== -1) {
+          return cleanSrc.indexOf("?") === -1
+            ? cleanSrc + "?autoplay=true&muted=false"
+            : cleanSrc + "&autoplay=true&muted=false";
+        }
+
+        return cleanSrc;
+      }
+
       function openVideo(src) {
-        if (!src) return;
+        const videoUrl = buildStreamUrl(src);
+        if (!videoUrl) return;
 
         modal.classList.add("is-open");
         modal.setAttribute("aria-hidden", "false");
 
-        modalVideo.pause();
-        modalVideo.removeAttribute("src");
-        modalVideo.load();
-
-        modalVideo.src = src;
-        modalVideo.load();
-
-        const playPromise = modalVideo.play();
-        if (playPromise && typeof playPromise.catch === "function") {
-          playPromise.catch(function () {});
-        }
+        modalFrame.removeAttribute("src");
+        modalFrame.setAttribute("src", videoUrl);
 
         document.documentElement.classList.add("birdcasters-modal-open");
       }
@@ -308,9 +316,7 @@
         modal.classList.remove("is-open");
         modal.setAttribute("aria-hidden", "true");
 
-        modalVideo.pause();
-        modalVideo.removeAttribute("src");
-        modalVideo.load();
+        modalFrame.removeAttribute("src");
 
         document.documentElement.classList.remove("birdcasters-modal-open");
       }
