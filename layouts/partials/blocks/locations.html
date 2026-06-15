@@ -1,0 +1,101 @@
+{{ $d := .Site.Data.home }}
+
+<section class="locations" id="locations">
+  <div class="locations__inner">
+    <div class="locations__head">
+      <div class="locations__eyebrow">
+        {{ $d.locations_eyebrow }}
+      </div>
+
+      <h2 class="locations__title">
+        {{ $d.locations_title }}
+      </h2>
+
+      <p class="locations__description">
+        {{ $d.locations_description }}
+      </p>
+    </div>
+
+    <div class="locations__grid">
+      <article class="location-card">
+        <div class="location-card__map">
+          <iframe
+            src="{{ $d.location_1_map_embed }}"
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"
+            title="{{ $d.location_1_title }} map"
+          ></iframe>
+        </div>
+
+        <div class="location-card__content">
+          <span class="location-card__tag">{{ $d.location_1_tag }}</span>
+
+          <h3>{{ $d.location_1_title }}</h3>
+
+          <p>{{ $d.location_1_address }}</p>
+
+          <div class="location-card__meta">
+            <span>{{ $d.location_1_hours }}</span>
+
+            <a
+              href="https://wa.me/971561886153"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              {{ $d.location_1_phone }}
+            </a>
+          </div>
+
+          <a
+            class="location-card__link"
+            href="{{ $d.location_1_map_url }}"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            {{ $d.locations_map_cta_label }} <span>›</span>
+          </a>
+        </div>
+      </article>
+
+      <article class="location-card">
+        <div class="location-card__map">
+          <iframe
+            src="{{ $d.location_2_map_embed }}"
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"
+            title="{{ $d.location_2_title }} map"
+          ></iframe>
+        </div>
+
+        <div class="location-card__content">
+          <span class="location-card__tag">{{ $d.location_2_tag }}</span>
+
+          <h3>{{ $d.location_2_title }}</h3>
+
+          <p>{{ $d.location_2_address }}</p>
+
+          <div class="location-card__meta">
+            <span>{{ $d.location_2_hours }}</span>
+
+            <a
+              href="https://wa.me/971561886153"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              {{ $d.location_2_phone }}
+            </a>
+          </div>
+
+          <a
+            class="location-card__link"
+            href="{{ $d.location_2_map_url }}"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            {{ $d.locations_map_cta_label }} <span>›</span>
+          </a>
+        </div>
+      </article>
+    </div>
+  </div>
+</section>

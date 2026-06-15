@@ -23,7 +23,7 @@
         <div class="site-footer__actions">
           <a
             class="site-footer__btn site-footer__btn--primary"
-            href="{{ $d.footer_cta_primary_url }}"
+            href="https://birdcast-studio.podyx.com/by-date"
             target="_blank"
             rel="noopener noreferrer"
           >
@@ -44,7 +44,7 @@
       <nav class="site-footer__services" aria-label="Footer services">
         <h3>{{ $d.footer_services_title }}</h3>
 
-        <a href="{{ $d.footer_service_1_url }}" target="_blank" rel="noopener noreferrer">{{ $d.footer_service_1_label }}</a>
+        <a href="https://birdcast-studio.podyx.com/time-slots?setup" target="_blank" rel="noopener noreferrer">{{ $d.footer_service_1_label }}</a>
         <a href="{{ $d.footer_service_2_url }}">{{ $d.footer_service_2_label }}</a>
         <a href="{{ $d.footer_service_3_url }}" target="_blank" rel="noopener noreferrer">{{ $d.footer_service_3_label }}</a>
         <a href="{{ $d.footer_service_4_url }}" target="_blank" rel="noopener noreferrer">{{ $d.footer_service_4_label }}</a>
@@ -54,7 +54,12 @@
       <div class="site-footer__contact">
         <h3>{{ $d.footer_contact_title }}</h3>
 
-        <a class="site-footer__contact-link" href="{{ $d.footer_phone_url }}">
+        <a
+          class="site-footer__contact-link"
+          href="https://wa.me/971561886153"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
           {{ $d.footer_phone }}
         </a>
 
@@ -68,13 +73,27 @@
 
         <div class="site-footer__addresses">
           <p>
-            <strong>{{ $d.footer_address_1_title }}</strong>
-            <span>{{ $d.footer_address_1_text }}</span>
+            <a
+              class="site-footer__address-link"
+              href="https://www.google.com/maps/search/?api=1&query=Birdcast%20Podcast%20Studio%20-%20Business%20Bay%20Dubai"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <strong>{{ $d.footer_address_1_title }}</strong>
+              <span>{{ $d.footer_address_1_text }}</span>
+            </a>
           </p>
 
           <p>
-            <strong>{{ $d.footer_address_2_title }}</strong>
-            <span>{{ $d.footer_address_2_text }}</span>
+            <a
+              class="site-footer__address-link"
+              href="https://maps.app.goo.gl/sQDpoQH8JqqSR7aM9"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <strong>{{ $d.footer_address_2_title }}</strong>
+              <span>{{ $d.footer_address_2_text }}</span>
+            </a>
           </p>
         </div>
 
@@ -106,9 +125,29 @@
       <p>{{ $d.footer_copyright }}</p>
 
       <div class="site-footer__legal">
-        <a href="{{ $d.footer_privacy_url }}">{{ $d.footer_privacy_label }}</a>
-        <a href="{{ $d.footer_terms_url }}">{{ $d.footer_terms_label }}</a>
-        <a href="{{ $d.footer_booking_url }}" target="_blank" rel="noopener noreferrer">{{ $d.footer_booking_label }}</a>
+        <a
+          href="https://docs.google.com/document/d/1dY4BTReGG7FpyBZCbGHWa-Y70MIeTWqY/edit?usp=sharing&amp;ouid=101184683241690979628&amp;rtpof=true&amp;sd=true"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          {{ $d.footer_privacy_label }}
+        </a>
+
+        <a
+          href="https://docs.google.com/document/d/1ArkvJr5QuPC9gJdQCFq3LmhGMb9DabGd/edit?usp=drive_link&amp;ouid=101184683241690979628&amp;rtpof=true&amp;sd=true"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          {{ $d.footer_terms_label }}
+        </a>
+
+        <a
+          href="https://birdcast-studio.podyx.com/by-date"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          {{ $d.footer_booking_label }}
+        </a>
       </div>
     </div>
   </div>

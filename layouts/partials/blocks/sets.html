@@ -25,6 +25,7 @@
         data-set-image-1="{{ $d.set_1_image_1 }}"
         data-set-image-2="{{ $d.set_1_image_2 }}"
         data-set-image-3="{{ $d.set_1_image_3 }}"
+        data-booking-url="https://birdcast-studio.podyx.com/time-slots?setup=b362a620-9d3a-4df0-a647-083ed20e58e9"
         aria-label="View {{ $d.set_1_title }} set photos"
       >
         <span class="set-card__content">
@@ -44,6 +45,7 @@
         data-set-image-1="{{ $d.set_2_image_1 }}"
         data-set-image-2="{{ $d.set_2_image_2 }}"
         data-set-image-3="{{ $d.set_2_image_3 }}"
+        data-booking-url="https://birdcast-studio.podyx.com/time-slots?setup=72caf389-da9b-4356-b6b9-d24dd797aa3a"
         aria-label="View {{ $d.set_2_title }} set photos"
       >
         <span class="set-card__content">
@@ -63,6 +65,7 @@
         data-set-image-1="{{ $d.set_3_image_1 }}"
         data-set-image-2="{{ $d.set_3_image_2 }}"
         data-set-image-3="{{ $d.set_3_image_3 }}"
+        data-booking-url="https://birdcast-studio.podyx.com/time-slots?setup=a2e44502-ea75-472d-a2c5-58aa581c68ca"
         aria-label="View {{ $d.set_3_title }} set photos"
       >
         <span class="set-card__content">
@@ -82,6 +85,7 @@
         data-set-image-1="{{ $d.set_4_image_1 }}"
         data-set-image-2="{{ $d.set_4_image_2 }}"
         data-set-image-3="{{ $d.set_4_image_3 }}"
+        data-booking-url="https://birdcast-studio.podyx.com/time-slots?setup=328a89f3-a719-4823-b860-536421569373"
         aria-label="View {{ $d.set_4_title }} set photos"
       >
         <span class="set-card__content">
@@ -101,6 +105,7 @@
         data-set-image-1="{{ $d.set_5_image_1 }}"
         data-set-image-2="{{ $d.set_5_image_2 }}"
         data-set-image-3="{{ $d.set_5_image_3 }}"
+        data-booking-url="https://birdcast-studio.podyx.com/time-slots?setup=cf6702ba-1274-4ccc-8893-c8d23d81ef2a"
         aria-label="View {{ $d.set_5_title }} set photos"
       >
         <span class="set-card__content">
@@ -138,7 +143,6 @@
         class="set-modal__cta"
         id="set-modal-cta"
         type="button"
-        data-booking-url="{{ $d.booking_system_url | default $d.booking_cta_url }}"
         aria-label="Book this set"
       >
         <span>Book this set</span>
@@ -174,6 +178,7 @@
 
     let currentImages = [];
     let currentTitle = "Birdcast set";
+    let currentBookingUrl = "";
     let currentIndex = 0;
 
     function renderImage() {
@@ -203,6 +208,7 @@
 
     function openSet(button) {
       currentTitle = button.getAttribute("data-set-title") || "Birdcast set";
+      currentBookingUrl = button.getAttribute("data-booking-url") || "";
 
       currentImages = [
         button.getAttribute("data-set-image-1") || "",
@@ -230,6 +236,7 @@
       imageEl.alt = "";
 
       currentImages = [];
+      currentBookingUrl = "";
       currentIndex = 0;
 
       document.body.classList.remove("set-modal-open");
@@ -269,11 +276,9 @@
 
     if (ctaEl) {
       ctaEl.addEventListener("click", function () {
-        const url = ctaEl.getAttribute("data-booking-url");
+        if (!currentBookingUrl) return;
 
-        if (!url) return;
-
-        window.open(url, "_blank", "noopener,noreferrer");
+        window.open(currentBookingUrl, "_blank", "noopener,noreferrer");
       });
     }
 

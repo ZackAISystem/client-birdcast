@@ -1,0 +1,154 @@
+{{ $d := .Site.Data.home }}
+
+<section class="faq" id="faq">
+  <div class="faq__inner">
+    <div class="faq__head">
+      <div class="faq__eyebrow">
+        {{ $d.faq_eyebrow }}
+      </div>
+
+      <h2 class="faq__title">
+        {{ $d.faq_title }}
+      </h2>
+
+      <p class="faq__description">
+        {{ $d.faq_description }}
+      </p>
+    </div>
+
+    <div class="faq__list">
+      <details class="faq-item" open>
+        <summary>
+          <span>{{ $d.faq_1_question }}</span>
+        </summary>
+
+        <div class="faq-item__content">
+          <p>{{ $d.faq_1_answer_1 }}</p>
+          <p>{{ $d.faq_1_answer_2 }}</p>
+          <p>{{ $d.faq_1_answer_3 }}</p>
+          <p>{{ $d.faq_1_answer_4 }}</p>
+          <p>{{ $d.faq_1_answer_5 }}</p>
+          <p>{{ $d.faq_1_answer_6 }}</p>
+        </div>
+      </details>
+
+      <details class="faq-item">
+        <summary>
+          <span>{{ $d.faq_2_question }}</span>
+        </summary>
+
+        <div class="faq-item__content">
+          <p>{{ $d.faq_2_answer }}</p>
+        </div>
+      </details>
+
+      <details class="faq-item">
+        <summary>
+          <span>{{ $d.faq_3_question }}</span>
+        </summary>
+
+        <div class="faq-item__content">
+          <p>{{ $d.faq_3_answer }}</p>
+
+          <a
+            class="faq-item__link"
+            href="https://birdcast-studio.podyx.com/by-date"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            {{ $d.faq_booking_cta_label }} <span>›</span>
+          </a>
+        </div>
+      </details>
+
+      <details class="faq-item">
+        <summary>
+          <span>{{ $d.faq_4_question }}</span>
+        </summary>
+
+        <div class="faq-item__content">
+          <p>{{ $d.faq_4_answer }}</p>
+        </div>
+      </details>
+
+      <details class="faq-item">
+        <summary>
+          <span>{{ $d.faq_5_question }}</span>
+        </summary>
+
+        <div class="faq-item__content">
+          <p>{{ $d.faq_5_answer_1 }}</p>
+
+          <ul>
+            <li>{{ $d.faq_5_point_1 }}</li>
+            <li>{{ $d.faq_5_point_2 }}</li>
+            <li>{{ $d.faq_5_point_3 }}</li>
+            <li>{{ $d.faq_5_point_4 }}</li>
+          </ul>
+
+          <p>{{ $d.faq_5_answer_2 }}</p>
+        </div>
+      </details>
+
+      <details class="faq-item">
+        <summary>
+          <span>{{ $d.faq_6_question }}</span>
+        </summary>
+
+        <div class="faq-item__content">
+          <p>{{ $d.faq_6_answer_1 }}</p>
+          <p>{{ $d.faq_6_answer_2 }}</p>
+        </div>
+      </details>
+
+      <details class="faq-item">
+        <summary>
+          <span>{{ $d.faq_7_question }}</span>
+        </summary>
+
+        <div class="faq-item__content">
+          <p>{{ $d.faq_7_answer }}</p>
+        </div>
+      </details>
+
+      <details class="faq-item">
+        <summary>
+          <span>{{ $d.faq_8_question }}</span>
+        </summary>
+
+        <div class="faq-item__content">
+          <p>{{ $d.faq_8_answer }}</p>
+        </div>
+      </details>
+
+      <details class="faq-item">
+        <summary>
+          <span>{{ $d.faq_9_question }}</span>
+        </summary>
+
+        <div class="faq-item__content">
+          <p>{{ $d.faq_9_answer }}</p>
+
+          <a
+            class="faq-item__link"
+            href="https://birdcast-studio.podyx.com/by-date"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            {{ $d.faq_booking_cta_label }} <span>›</span>
+          </a>
+        </div>
+      </details>
+
+      <details class="faq-item">
+        <summary>
+          <span>{{ $d.faq_10_question }}</span>
+        </summary>
+
+        <div class="faq-item__content">
+          <p>{{ $d.faq_10_answer }}</p>
+        </div>
+      </details>
+    </div>
+  </div>
+</section>

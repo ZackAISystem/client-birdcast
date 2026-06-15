@@ -9,3 +9,4 @@ node_modules/
 static/video/
 *.mp4
 *.mov
+_backups/
