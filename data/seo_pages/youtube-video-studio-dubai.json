@@ -1,0 +1,126 @@
+{
+  "defaults": {
+    "brand": "Birdcast",
+    "city": "Dubai",
+    "booking_url": "https://birdcast-studio.podyx.com/by-date",
+    "whatsapp_url": "https://wa.me/971561886153",
+    "hero_eyebrow": "Birdcast Dubai",
+    "final_cta_title": "Ready to create professional content in Dubai?",
+    "final_cta_text": "Tell us what you want to record and the Birdcast team will guide you to the right studio, format and production setup.",
+    "final_cta_booking_label": "Book a Session",
+    "final_cta_whatsapp_label": "Talk on WhatsApp",
+    "global_trust_points": [
+      "Professional Dubai podcast studios",
+      "Multi-camera recording setup",
+      "Broadcast-level production experience",
+      "Fast delivery through Google Drive"
+    ],
+    "shared_process": [
+      {
+        "title": "Choose the format",
+        "text": "Decide whether the content is an interview, creator episode, educational video, video podcast or brand channel piece."
+      },
+      {
+        "title": "Plan the episode",
+        "text": "Confirm the topic, speaker flow, set, length and whether you want clips from the same recording."
+      },
+      {
+        "title": "Record in studio",
+        "text": "Film with professional cameras, microphones, lighting and production support."
+      },
+      {
+        "title": "Use the footage",
+        "text": "Prepare the recording for YouTube, highlight clips, social cutdowns or further editing."
+      }
+    ],
+    "shared_why": [
+      {
+        "title": "Studio quality",
+        "text": "Record in a professional environment built for podcasts, interviews, social content and business media."
+      },
+      {
+        "title": "Broadcast experience",
+        "text": "Birdcast is led by people with serious broadcast and media production experience."
+      },
+      {
+        "title": "Clear production flow",
+        "text": "From planning to recording and delivery, the process is structured and easy to follow."
+      },
+      {
+        "title": "Dubai locations",
+        "text": "Use Birdcast studio setups in Business Bay and Dubai Investment Park depending on your shoot."
+      }
+    ]
+  },
+  "page": {
+    "key": "youtube-video-studio-dubai",
+    "url": "/youtube-video-studio-dubai/",
+    "slug": "youtube-video-studio-dubai",
+    "seo_title": "YouTube Video Studio in Dubai | Birdcast",
+    "seo_description": "Record YouTube videos, interviews, creator episodes and video podcasts in Dubai with Birdcast’s studio setup.",
+    "h1": "YouTube Video Studio in Dubai",
+    "subtitle": "Record YouTube videos, interviews and long-form creator content in a professional Dubai studio with cameras, audio and lighting.",
+    "primary_cta_label": "Talk on WhatsApp",
+    "primary_cta_url": "https://wa.me/971561886153",
+    "secondary_cta_label": "View Dubai Studios",
+    "secondary_cta_url": "/#studios",
+    "cta_type": "whatsapp",
+    "intent": "YouTube video studio Dubai",
+    "audience_note": "For YouTube creators, founders, brands and educators recording long-form content, interviews or video podcast episodes.",
+    "audiences": [
+      {
+        "title": "YouTube creators",
+        "text": "Record professional long-form videos with studio lighting, cameras and clean audio."
+      },
+      {
+        "title": "Podcast hosts",
+        "text": "Turn podcast conversations into YouTube-ready episodes and highlight clips."
+      },
+      {
+        "title": "Educators",
+        "text": "Film lessons, explainers, tutorials and course-style content."
+      },
+      {
+        "title": "Brands",
+        "text": "Create YouTube content that supports campaigns, education and brand authority."
+      }
+    ],
+    "record_formats": [
+      "YouTube long-form videos",
+      "Podcast episodes for YouTube",
+      "Educational creator content",
+      "Interview-led YouTube shows",
+      "Brand channel videos"
+    ],
+    "faq": [
+      {
+        "question": "Can I record YouTube videos at Birdcast?",
+        "answer": "Yes. Birdcast can support YouTube videos, video podcasts, interviews, creator episodes and educational content."
+      },
+      {
+        "question": "Can one recording create long-form and short-form content?",
+        "answer": "Yes. Long-form recordings can often be repurposed into clips, reels and YouTube Shorts when the session is planned that way."
+      },
+      {
+        "question": "Is the studio suitable for creators?",
+        "answer": "Yes. The setup works for creators, experts, founders, brands and companies that want a more professional YouTube look."
+      },
+      {
+        "question": "Can Birdcast help with the recording setup?",
+        "answer": "Yes. The team handles the studio setup, cameras, microphones, lighting and production flow."
+      },
+      {
+        "question": "Should YouTube projects start with WhatsApp?",
+        "answer": "For YouTube projects, WhatsApp is recommended so the team can understand the format, length, guests and delivery expectations."
+      }
+    ],
+    "related": [
+      "video-podcast-studio-dubai",
+      "short-form-content-studio-dubai",
+      "course-recording-studio-dubai",
+      "brand-content-production-dubai"
+    ],
+    "process_title": "From YouTube idea to studio-recorded episode",
+    "process_description": "YouTube content benefits from a clear format, strong recording setup and a plan for long-form and short-form use."
+  }
+}

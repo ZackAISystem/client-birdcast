@@ -1,0 +1,126 @@
+{
+  "defaults": {
+    "brand": "Birdcast",
+    "city": "Dubai",
+    "booking_url": "https://birdcast-studio.podyx.com/by-date",
+    "whatsapp_url": "https://wa.me/971561886153",
+    "hero_eyebrow": "Birdcast Dubai",
+    "final_cta_title": "Ready to create professional content in Dubai?",
+    "final_cta_text": "Tell us what you want to record and the Birdcast team will guide you to the right studio, format and production setup.",
+    "final_cta_booking_label": "Book a Session",
+    "final_cta_whatsapp_label": "Talk on WhatsApp",
+    "global_trust_points": [
+      "Professional Dubai podcast studios",
+      "Multi-camera recording setup",
+      "Broadcast-level production experience",
+      "Fast delivery through Google Drive"
+    ],
+    "shared_process": [
+      {
+        "title": "Define the series",
+        "text": "Clarify the podcast theme, audience, episode style, guest profile and what the brand wants the series to achieve."
+      },
+      {
+        "title": "Build the format",
+        "text": "Plan the interview structure, host flow, episode length, set choice and any recurring segments."
+      },
+      {
+        "title": "Record episodes",
+        "text": "Film with multi-camera support, professional audio and a studio setup that keeps the conversation focused."
+      },
+      {
+        "title": "Deliver content",
+        "text": "Prepare the podcast recording and supporting assets so the brand can publish or repurpose the episode."
+      }
+    ],
+    "shared_why": [
+      {
+        "title": "Studio quality",
+        "text": "Record in a professional environment built for podcasts, interviews, social content and business media."
+      },
+      {
+        "title": "Broadcast experience",
+        "text": "Birdcast is led by people with serious broadcast and media production experience."
+      },
+      {
+        "title": "Clear production flow",
+        "text": "From planning to recording and delivery, the process is structured and easy to follow."
+      },
+      {
+        "title": "Dubai locations",
+        "text": "Use Birdcast studio setups in Business Bay and Dubai Investment Park depending on your shoot."
+      }
+    ]
+  },
+  "page": {
+    "key": "branded-podcast-production-dubai",
+    "url": "/branded-podcast-production-dubai/",
+    "slug": "branded-podcast-production-dubai",
+    "seo_title": "Branded Podcast Production in Dubai | Birdcast",
+    "seo_description": "Launch a branded podcast in Dubai with studio recording, interview planning, multi-camera production and content delivery from Birdcast.",
+    "h1": "Branded Podcast Production in Dubai",
+    "subtitle": "Build a branded podcast or interview series that gives your company a repeatable content format for authority, trust and long-term storytelling.",
+    "primary_cta_label": "Talk on WhatsApp",
+    "primary_cta_url": "https://wa.me/971561886153",
+    "secondary_cta_label": "View Podcast Sets",
+    "secondary_cta_url": "/#sets",
+    "cta_type": "whatsapp",
+    "intent": "Branded podcast production Dubai",
+    "audience_note": "For companies and agencies creating podcast-led content around expertise, leadership, customers, campaigns or industry conversations.",
+    "audiences": [
+      {
+        "title": "Corporate brands",
+        "text": "Create a podcast series that supports trust, thought leadership and market positioning."
+      },
+      {
+        "title": "Agency teams",
+        "text": "Bring client podcast concepts into a reliable studio with production support."
+      },
+      {
+        "title": "Leadership teams",
+        "text": "Record recurring conversations with founders, executives, customers or industry experts."
+      },
+      {
+        "title": "Campaign teams",
+        "text": "Use podcast episodes as deeper campaign assets around a launch or brand message."
+      }
+    ],
+    "record_formats": [
+      "Branded podcast episodes",
+      "Leadership conversation series",
+      "Customer story interviews",
+      "Industry expert panels",
+      "Podcast-to-social clip packages"
+    ],
+    "faq": [
+      {
+        "question": "Can Birdcast help with the format of a branded podcast?",
+        "answer": "Yes. Birdcast can help clarify the episode structure, guest flow and recording setup so the podcast feels like a repeatable brand format rather than a one-off conversation."
+      },
+      {
+        "question": "Can we record several episodes in one session?",
+        "answer": "Yes, depending on guest availability, episode length and preparation. A planned recording day can often capture multiple conversations efficiently."
+      },
+      {
+        "question": "Can branded podcast episodes become social content?",
+        "answer": "Yes. Long-form podcast recordings can be planned with short clips in mind, making it easier to create LinkedIn, Instagram or campaign cutdowns later."
+      },
+      {
+        "question": "Is this better for brands or individuals?",
+        "answer": "It works best for companies, agencies and founders who want a consistent media format around expertise, customers, leadership or industry conversations."
+      },
+      {
+        "question": "What should we discuss before booking?",
+        "answer": "Share the brand goal, number of episodes, expected guests, preferred publishing channels and whether you need editing or short-form assets."
+      }
+    ],
+    "related": [
+      "corporate-podcast-recording-dubai",
+      "brand-content-production-dubai",
+      "video-production-for-companies-dubai",
+      "broadcast-studio-dubai"
+    ],
+    "process_title": "From podcast concept to repeatable branded series",
+    "process_description": "A branded podcast works best when the format, guests and repurposing plan are clear before the first episode is recorded."
+  }
+}

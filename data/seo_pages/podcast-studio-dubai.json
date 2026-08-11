@@ -1,0 +1,126 @@
+{
+  "defaults": {
+    "brand": "Birdcast",
+    "city": "Dubai",
+    "booking_url": "https://birdcast-studio.podyx.com/by-date",
+    "whatsapp_url": "https://wa.me/971561886153",
+    "hero_eyebrow": "Birdcast Dubai",
+    "final_cta_title": "Ready to create professional content in Dubai?",
+    "final_cta_text": "Tell us what you want to record and the Birdcast team will guide you to the right studio, format and production setup.",
+    "final_cta_booking_label": "Book a Session",
+    "final_cta_whatsapp_label": "Talk on WhatsApp",
+    "global_trust_points": [
+      "Professional Dubai podcast studios",
+      "Multi-camera recording setup",
+      "Broadcast-level production experience",
+      "Fast delivery through Google Drive"
+    ],
+    "shared_process": [
+      {
+        "title": "Choose the session",
+        "text": "Book a standard podcast slot or message first if you need a custom setup, guests or extra content."
+      },
+      {
+        "title": "Plan the episode",
+        "text": "Confirm the topic, speakers, set preference, conversation flow and whether you need video clips."
+      },
+      {
+        "title": "Record in studio",
+        "text": "Capture the podcast with professional microphones, cameras, lighting and studio support."
+      },
+      {
+        "title": "Receive files",
+        "text": "Get your recording prepared for editing, publishing, repurposing or review."
+      }
+    ],
+    "shared_why": [
+      {
+        "title": "Studio quality",
+        "text": "Record in a professional environment built for podcasts, interviews, social content and business media."
+      },
+      {
+        "title": "Broadcast experience",
+        "text": "Birdcast is led by people with serious broadcast and media production experience."
+      },
+      {
+        "title": "Clear production flow",
+        "text": "From planning to recording and delivery, the process is structured and easy to follow."
+      },
+      {
+        "title": "Dubai locations",
+        "text": "Use Birdcast studio setups in Business Bay and Dubai Investment Park depending on your shoot."
+      }
+    ]
+  },
+  "page": {
+    "key": "podcast-studio-dubai",
+    "url": "/podcast-studio-dubai/",
+    "slug": "podcast-studio-dubai",
+    "seo_title": "Podcast Studio in Dubai | Birdcast",
+    "seo_description": "Record a podcast, interview or founder conversation in Dubai with Birdcast’s professional studio, cameras, lighting and audio setup.",
+    "h1": "Podcast Studio in Dubai",
+    "subtitle": "Record your podcast, interview or founder conversation in a professional Dubai studio built for creators, companies, experts and business media.",
+    "primary_cta_label": "Book a Session",
+    "primary_cta_url": "https://birdcast-studio.podyx.com/by-date",
+    "secondary_cta_label": "View Podcast Sets",
+    "secondary_cta_url": "/#sets",
+    "cta_type": "booking",
+    "intent": "Podcast studio Dubai",
+    "audience_note": "For creators, founders, experts and companies that need a professional podcast recording space with video-ready production support.",
+    "audiences": [
+      {
+        "title": "Podcast hosts",
+        "text": "Record episodes with professional microphones, cameras, lighting and a polished studio environment."
+      },
+      {
+        "title": "Founders",
+        "text": "Create founder interviews, leadership conversations and business podcasts with stronger visual presence."
+      },
+      {
+        "title": "Experts",
+        "text": "Turn knowledge, opinion and experience into clear podcast, interview or educational content."
+      },
+      {
+        "title": "Companies",
+        "text": "Use podcast content for brand authority, internal communication, client education or thought leadership."
+      }
+    ],
+    "record_formats": [
+      "Podcast episodes",
+      "Founder conversation recordings",
+      "Expert interview sessions",
+      "Panel-style discussions",
+      "Podcast clips for social"
+    ],
+    "faq": [
+      {
+        "question": "Can I record a video podcast at Birdcast?",
+        "answer": "Yes. Birdcast supports podcast recording with cameras, lighting, microphones and a professional studio environment."
+      },
+      {
+        "question": "Is the studio beginner-friendly?",
+        "answer": "Yes. The team can guide you through the setup, pacing, recording flow and delivery process."
+      },
+      {
+        "question": "Can I bring guests?",
+        "answer": "Yes. Birdcast can support different podcast and interview formats depending on the number of guests and selected studio setup."
+      },
+      {
+        "question": "Can a podcast session also create clips?",
+        "answer": "Yes. If planned before the session, podcast recordings can often be repurposed into short clips for social platforms."
+      },
+      {
+        "question": "Which Dubai locations are available?",
+        "answer": "Birdcast has Dubai studio locations including Business Bay and Dubai Investment Park."
+      }
+    ],
+    "related": [
+      "video-podcast-studio-dubai",
+      "podcast-studio-business-bay",
+      "podcast-studio-dip",
+      "corporate-podcast-recording-dubai"
+    ],
+    "process_title": "From podcast idea to recorded episode",
+    "process_description": "A podcast session is smoother when the topic, guests and intended content outputs are clear before you arrive."
+  }
+}

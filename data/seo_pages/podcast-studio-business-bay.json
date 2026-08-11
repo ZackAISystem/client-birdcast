@@ -1,0 +1,126 @@
+{
+  "defaults": {
+    "brand": "Birdcast",
+    "city": "Dubai",
+    "booking_url": "https://birdcast-studio.podyx.com/by-date",
+    "whatsapp_url": "https://wa.me/971561886153",
+    "hero_eyebrow": "Birdcast Dubai",
+    "final_cta_title": "Ready to create professional content in Dubai?",
+    "final_cta_text": "Tell us what you want to record and the Birdcast team will guide you to the right studio, format and production setup.",
+    "final_cta_booking_label": "Book a Session",
+    "final_cta_whatsapp_label": "Talk on WhatsApp",
+    "global_trust_points": [
+      "Professional Dubai podcast studios",
+      "Multi-camera recording setup",
+      "Broadcast-level production experience",
+      "Fast delivery through Google Drive"
+    ],
+    "shared_process": [
+      {
+        "title": "Choose the slot",
+        "text": "Select a suitable date and time for the Business Bay studio or message first if the format is custom."
+      },
+      {
+        "title": "Plan the format",
+        "text": "Confirm speakers, podcast style, set preference and whether you need short clips or a standard recording."
+      },
+      {
+        "title": "Record centrally",
+        "text": "Film your podcast or interview in a central Dubai studio close to Downtown, DIFC and Business Bay clients."
+      },
+      {
+        "title": "Receive content",
+        "text": "Get the recorded content prepared for your next publishing, editing or distribution step."
+      }
+    ],
+    "shared_why": [
+      {
+        "title": "Studio quality",
+        "text": "Record in a professional environment built for podcasts, interviews, social content and business media."
+      },
+      {
+        "title": "Broadcast experience",
+        "text": "Birdcast is led by people with serious broadcast and media production experience."
+      },
+      {
+        "title": "Clear production flow",
+        "text": "From planning to recording and delivery, the process is structured and easy to follow."
+      },
+      {
+        "title": "Dubai locations",
+        "text": "Use Birdcast studio setups in Business Bay and Dubai Investment Park depending on your shoot."
+      }
+    ]
+  },
+  "page": {
+    "key": "podcast-studio-business-bay",
+    "url": "/podcast-studio-business-bay/",
+    "slug": "podcast-studio-business-bay",
+    "seo_title": "Podcast Studio in Business Bay Dubai | Birdcast",
+    "seo_description": "Book Birdcast’s Business Bay podcast studio for interviews, founder content, business podcasts and branded conversations in central Dubai.",
+    "h1": "Podcast Studio in Business Bay",
+    "subtitle": "Record podcasts, interviews and founder conversations in a central Dubai studio close to Downtown, DIFC and Business Bay clients.",
+    "primary_cta_label": "Book Business Bay Studio",
+    "primary_cta_url": "https://birdcast-studio.podyx.com/by-date",
+    "secondary_cta_label": "View Podcast Sets",
+    "secondary_cta_url": "/#sets",
+    "cta_type": "booking",
+    "intent": "Podcast studio Business Bay",
+    "audience_note": "For founders, consultants, executives and teams that want a central Dubai podcast location with a professional recording setup.",
+    "audiences": [
+      {
+        "title": "Business Bay teams",
+        "text": "Record close to one of Dubai’s busiest business districts without travelling across the city."
+      },
+      {
+        "title": "Founders",
+        "text": "Create founder interviews, investor updates and business content in a central studio."
+      },
+      {
+        "title": "Consultants",
+        "text": "Film expert conversations, LinkedIn content and client-facing thought leadership."
+      },
+      {
+        "title": "Corporate guests",
+        "text": "Use the studio for professional conversations, internal videos and branded interviews."
+      }
+    ],
+    "record_formats": [
+      "Business podcast episodes",
+      "Founder interview sessions",
+      "Consultant expert videos",
+      "LinkedIn conversation clips",
+      "Branded business interviews"
+    ],
+    "faq": [
+      {
+        "question": "Is Birdcast available in Business Bay?",
+        "answer": "Yes. Birdcast has a Business Bay studio suitable for podcasts, interviews, founder content and branded conversations."
+      },
+      {
+        "question": "Who is the Business Bay studio best for?",
+        "answer": "It works well for founders, executives, consultants, guests and teams who want a central Dubai studio close to key business areas."
+      },
+      {
+        "question": "Can I record short clips during a podcast session?",
+        "answer": "Yes. If this is planned in advance, a podcast session can also support short-form clips depending on the setup and timing."
+      },
+      {
+        "question": "Can I book the Business Bay studio online?",
+        "answer": "Yes. Use the booking button to select the date and time that works for your Business Bay session."
+      },
+      {
+        "question": "Can I discuss the studio before booking?",
+        "answer": "Yes. Message Birdcast on WhatsApp if you want to discuss the format, set, guests or visit before booking."
+      }
+    ],
+    "related": [
+      "podcast-studio-dubai",
+      "video-podcast-studio-dubai",
+      "executive-interview-recording-dubai",
+      "linkedin-video-recording-dubai"
+    ],
+    "process_title": "From booking to Business Bay podcast session",
+    "process_description": "The Business Bay studio is useful when you want a central Dubai location for podcasts, interviews and business conversations."
+  }
+}

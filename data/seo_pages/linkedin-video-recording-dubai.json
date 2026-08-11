@@ -1,0 +1,126 @@
+{
+  "defaults": {
+    "brand": "Birdcast",
+    "city": "Dubai",
+    "booking_url": "https://birdcast-studio.podyx.com/by-date",
+    "whatsapp_url": "https://wa.me/971561886153",
+    "hero_eyebrow": "Birdcast Dubai",
+    "final_cta_title": "Ready to create professional content in Dubai?",
+    "final_cta_text": "Tell us what you want to record and the Birdcast team will guide you to the right studio, format and production setup.",
+    "final_cta_booking_label": "Book a Session",
+    "final_cta_whatsapp_label": "Talk on WhatsApp",
+    "global_trust_points": [
+      "Professional Dubai podcast studios",
+      "Multi-camera recording setup",
+      "Broadcast-level production experience",
+      "Fast delivery through Google Drive"
+    ],
+    "shared_process": [
+      {
+        "title": "Choose topics",
+        "text": "Prepare the advice, opinions, updates or expert points you want to turn into LinkedIn videos."
+      },
+      {
+        "title": "Plan the style",
+        "text": "Decide whether the clips should be direct-to-camera, interview-led, founder-led or repurposed from a longer session."
+      },
+      {
+        "title": "Record in batches",
+        "text": "Film several videos efficiently with professional sound, lighting and camera framing."
+      },
+      {
+        "title": "Use the clips",
+        "text": "Prepare content for LinkedIn posts, company pages, personal branding or social repurposing."
+      }
+    ],
+    "shared_why": [
+      {
+        "title": "Studio quality",
+        "text": "Record in a professional environment built for podcasts, interviews, social content and business media."
+      },
+      {
+        "title": "Broadcast experience",
+        "text": "Birdcast is led by people with serious broadcast and media production experience."
+      },
+      {
+        "title": "Clear production flow",
+        "text": "From planning to recording and delivery, the process is structured and easy to follow."
+      },
+      {
+        "title": "Dubai locations",
+        "text": "Use Birdcast studio setups in Business Bay and Dubai Investment Park depending on your shoot."
+      }
+    ]
+  },
+  "page": {
+    "key": "linkedin-video-recording-dubai",
+    "url": "/linkedin-video-recording-dubai/",
+    "slug": "linkedin-video-recording-dubai",
+    "seo_title": "LinkedIn Video Recording in Dubai | Birdcast",
+    "seo_description": "Record LinkedIn videos in Dubai for founders, consultants, brokers, coaches and business experts with Birdcast.",
+    "h1": "LinkedIn Video Recording in Dubai",
+    "subtitle": "Create polished LinkedIn videos, expert clips and thought-leadership content in a professional Dubai studio built for business visibility.",
+    "primary_cta_label": "Talk on WhatsApp",
+    "primary_cta_url": "https://wa.me/971561886153",
+    "secondary_cta_label": "Watch Showreel",
+    "secondary_cta_url": "/#work",
+    "cta_type": "whatsapp",
+    "intent": "LinkedIn video recording Dubai",
+    "audience_note": "For founders, consultants, brokers, coaches and experts who want sharper LinkedIn content without filming everything on a phone.",
+    "audiences": [
+      {
+        "title": "Founders",
+        "text": "Record opinion-led videos, company updates and thought leadership with a professional look."
+      },
+      {
+        "title": "Consultants",
+        "text": "Turn expertise, frameworks and client questions into clear LinkedIn video content."
+      },
+      {
+        "title": "Property professionals",
+        "text": "Film market commentary, buyer advice and personal brand clips for real estate audiences."
+      },
+      {
+        "title": "Coaches",
+        "text": "Create educational clips, short lessons and advice videos with clean audio and lighting."
+      }
+    ],
+    "record_formats": [
+      "LinkedIn thought-leadership videos",
+      "Expert advice clips",
+      "Founder update videos",
+      "Market commentary clips",
+      "Personal brand short videos"
+    ],
+    "faq": [
+      {
+        "question": "Can I record multiple LinkedIn videos in one session?",
+        "answer": "Yes. This is often the best approach. Prepare several topics and Birdcast can help you record them efficiently in one studio visit."
+      },
+      {
+        "question": "Do I need a full script for LinkedIn videos?",
+        "answer": "No. A script can help, but LinkedIn content often feels more natural when it is built from strong bullet points and a clear message."
+      },
+      {
+        "question": "Can the videos be used outside LinkedIn?",
+        "answer": "Yes. LinkedIn-style videos can often be adapted for websites, newsletters, Instagram, YouTube Shorts or TikTok-style clips."
+      },
+      {
+        "question": "Is this useful for real estate brokers and consultants?",
+        "answer": "Yes. Brokers, consultants, coaches and founders can use the format for market commentary, advice, expertise and personal brand content."
+      },
+      {
+        "question": "What should I send before booking?",
+        "answer": "Send your topics, audience, preferred tone and examples of videos you like so the team can suggest a practical recording format."
+      }
+    ],
+    "related": [
+      "short-form-content-studio-dubai",
+      "content-studio-for-founders-dubai",
+      "executive-interview-recording-dubai",
+      "interview-studio-dubai"
+    ],
+    "process_title": "From LinkedIn topics to polished business clips",
+    "process_description": "LinkedIn content becomes stronger when several clear topics are planned before the recording session."
+  }
+}

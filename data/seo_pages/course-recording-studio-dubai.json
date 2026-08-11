@@ -1,0 +1,126 @@
+{
+  "defaults": {
+    "brand": "Birdcast",
+    "city": "Dubai",
+    "booking_url": "https://birdcast-studio.podyx.com/by-date",
+    "whatsapp_url": "https://wa.me/971561886153",
+    "hero_eyebrow": "Birdcast Dubai",
+    "final_cta_title": "Ready to create professional content in Dubai?",
+    "final_cta_text": "Tell us what you want to record and the Birdcast team will guide you to the right studio, format and production setup.",
+    "final_cta_booking_label": "Book a Session",
+    "final_cta_whatsapp_label": "Talk on WhatsApp",
+    "global_trust_points": [
+      "Professional Dubai podcast studios",
+      "Multi-camera recording setup",
+      "Broadcast-level production experience",
+      "Fast delivery through Google Drive"
+    ],
+    "shared_process": [
+      {
+        "title": "Map the course",
+        "text": "Break the topic into modules, lessons or teaching points so the recording day has a clear structure."
+      },
+      {
+        "title": "Plan delivery",
+        "text": "Decide whether you need direct-to-camera lessons, slides, interview style, coaching format or short modules."
+      },
+      {
+        "title": "Record lessons",
+        "text": "Film the course content with clean audio, lighting and a controlled studio setup."
+      },
+      {
+        "title": "Prepare files",
+        "text": "Deliver the recorded course material in a structure that is easy to review, edit or publish."
+      }
+    ],
+    "shared_why": [
+      {
+        "title": "Studio quality",
+        "text": "Record in a professional environment built for podcasts, interviews, social content and business media."
+      },
+      {
+        "title": "Broadcast experience",
+        "text": "Birdcast is led by people with serious broadcast and media production experience."
+      },
+      {
+        "title": "Clear production flow",
+        "text": "From planning to recording and delivery, the process is structured and easy to follow."
+      },
+      {
+        "title": "Dubai locations",
+        "text": "Use Birdcast studio setups in Business Bay and Dubai Investment Park depending on your shoot."
+      }
+    ]
+  },
+  "page": {
+    "key": "course-recording-studio-dubai",
+    "url": "/course-recording-studio-dubai/",
+    "slug": "course-recording-studio-dubai",
+    "seo_title": "Course Recording Studio in Dubai | Birdcast",
+    "seo_description": "Record online courses, lessons, coaching modules and educational videos in Dubai with professional cameras, sound and lighting.",
+    "h1": "Course Recording Studio in Dubai",
+    "subtitle": "Record online courses, lessons and educational content with professional studio quality, clean sound and a structured production workflow.",
+    "primary_cta_label": "Talk on WhatsApp",
+    "primary_cta_url": "https://wa.me/971561886153",
+    "secondary_cta_label": "View Dubai Studios",
+    "secondary_cta_url": "/#studios",
+    "cta_type": "whatsapp",
+    "intent": "Course recording studio Dubai",
+    "audience_note": "For educators, coaches, consultants and companies turning knowledge into clear learning content.",
+    "audiences": [
+      {
+        "title": "Course creators",
+        "text": "Record modules, lessons and teaching segments with consistent studio quality."
+      },
+      {
+        "title": "Coaches",
+        "text": "Turn frameworks, methods and advice into structured video lessons."
+      },
+      {
+        "title": "Consultants",
+        "text": "Package expertise into training videos, explainers or client education content."
+      },
+      {
+        "title": "Companies",
+        "text": "Create internal learning material, customer education and repeatable knowledge assets."
+      }
+    ],
+    "record_formats": [
+      "Online course modules",
+      "Lesson-based videos",
+      "Coaching frameworks",
+      "Educational explainers",
+      "Client education content"
+    ],
+    "faq": [
+      {
+        "question": "Can I record a full online course at Birdcast?",
+        "answer": "Yes. Birdcast can support course modules, lesson videos, coaching frameworks, educational explainers and client education content."
+      },
+      {
+        "question": "How should I prepare before a course recording?",
+        "answer": "Prepare a module outline, key teaching points, examples and any slides or visual references. This helps the session move faster."
+      },
+      {
+        "question": "Can several lessons be recorded in one session?",
+        "answer": "Yes. With a clear outline, multiple lessons or modules can be recorded efficiently in one studio session."
+      },
+      {
+        "question": "Is this suitable for coaches and consultants?",
+        "answer": "Yes. Coaches and consultants can turn frameworks, methods and expertise into professional video lessons or educational clips."
+      },
+      {
+        "question": "How are the recordings delivered?",
+        "answer": "Finished content can be delivered through Google Drive or the agreed delivery flow, depending on the scope of the project."
+      }
+    ],
+    "related": [
+      "training-video-recording-dubai",
+      "webinar-recording-studio-dubai",
+      "youtube-video-studio-dubai",
+      "linkedin-video-recording-dubai"
+    ],
+    "process_title": "From course outline to recorded learning modules",
+    "process_description": "Course recording becomes easier when lessons, modules and delivery expectations are organised before the studio session."
+  }
+}

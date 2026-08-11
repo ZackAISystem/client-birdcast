@@ -1,0 +1,126 @@
+{
+  "defaults": {
+    "brand": "Birdcast",
+    "city": "Dubai",
+    "booking_url": "https://birdcast-studio.podyx.com/by-date",
+    "whatsapp_url": "https://wa.me/971561886153",
+    "hero_eyebrow": "Birdcast Dubai",
+    "final_cta_title": "Ready to create professional content in Dubai?",
+    "final_cta_text": "Tell us what you want to record and the Birdcast team will guide you to the right studio, format and production setup.",
+    "final_cta_booking_label": "Book a Session",
+    "final_cta_whatsapp_label": "Talk on WhatsApp",
+    "global_trust_points": [
+      "Professional Dubai podcast studios",
+      "Multi-camera recording setup",
+      "Broadcast-level production experience",
+      "Fast delivery through Google Drive"
+    ],
+    "shared_process": [
+      {
+        "title": "Define the message",
+        "text": "Clarify whether the video is for leadership, HR, training, marketing, internal communication or brand storytelling."
+      },
+      {
+        "title": "Plan the setup",
+        "text": "Confirm speakers, script level, filming style, studio needs and where the content will be used."
+      },
+      {
+        "title": "Film professionally",
+        "text": "Record with controlled cameras, audio, lighting and production guidance for a polished business result."
+      },
+      {
+        "title": "Deliver assets",
+        "text": "Prepare content for internal platforms, LinkedIn, websites, campaigns or company communication."
+      }
+    ],
+    "shared_why": [
+      {
+        "title": "Studio quality",
+        "text": "Record in a professional environment built for podcasts, interviews, social content and business media."
+      },
+      {
+        "title": "Broadcast experience",
+        "text": "Birdcast is led by people with serious broadcast and media production experience."
+      },
+      {
+        "title": "Clear production flow",
+        "text": "From planning to recording and delivery, the process is structured and easy to follow."
+      },
+      {
+        "title": "Dubai locations",
+        "text": "Use Birdcast studio setups in Business Bay and Dubai Investment Park depending on your shoot."
+      }
+    ]
+  },
+  "page": {
+    "key": "corporate-video-production-dubai",
+    "url": "/corporate-video-production-dubai/",
+    "slug": "corporate-video-production-dubai",
+    "seo_title": "Corporate Video Production in Dubai | Birdcast",
+    "seo_description": "Produce corporate videos in Dubai for leadership, HR, training, internal communication, company stories and brand content.",
+    "h1": "Corporate Video Production in Dubai",
+    "subtitle": "Create corporate videos that look professional, sound clear and support leadership, HR, training, marketing and internal communication goals.",
+    "primary_cta_label": "Talk on WhatsApp",
+    "primary_cta_url": "https://wa.me/971561886153",
+    "secondary_cta_label": "View Production Work",
+    "secondary_cta_url": "/#video-production-work",
+    "cta_type": "whatsapp",
+    "intent": "Corporate video production Dubai",
+    "audience_note": "For corporate teams that need polished video content with clear planning, clean delivery and a professional studio workflow.",
+    "audiences": [
+      {
+        "title": "Leadership teams",
+        "text": "Record CEO updates, executive interviews, announcements and strategy messages."
+      },
+      {
+        "title": "HR departments",
+        "text": "Film onboarding, culture, training and employee communication videos."
+      },
+      {
+        "title": "Marketing teams",
+        "text": "Produce campaign videos, brand explainers and social assets with a professional studio look."
+      },
+      {
+        "title": "Operations teams",
+        "text": "Create repeatable internal content for processes, training and company updates."
+      }
+    ],
+    "record_formats": [
+      "CEO and leadership messages",
+      "Employee communication videos",
+      "Corporate training content",
+      "Company story films",
+      "Brand and campaign videos"
+    ],
+    "faq": [
+      {
+        "question": "Can Birdcast produce videos for internal company use?",
+        "answer": "Yes. Birdcast can support onboarding videos, leadership messages, culture content, training modules and internal updates."
+      },
+      {
+        "question": "Can executives be recorded professionally?",
+        "answer": "Yes. Executive messages and interviews can be filmed with controlled lighting, camera positioning, audio and production support."
+      },
+      {
+        "question": "Can one corporate shoot create multiple outputs?",
+        "answer": "Yes. With planning, one shoot can create a main video plus shorter edits for LinkedIn, websites or internal communication."
+      },
+      {
+        "question": "Should we prepare a script?",
+        "answer": "A script is useful for formal communication, while bullet points may work better for interviews or natural leadership content."
+      },
+      {
+        "question": "What should we send before starting?",
+        "answer": "Send the goal, number of speakers, usage channels, deadline and whether the content is internal, public or campaign-focused."
+      }
+    ],
+    "related": [
+      "video-production-for-companies-dubai",
+      "executive-interview-recording-dubai",
+      "training-video-recording-dubai",
+      "brand-content-production-dubai"
+    ],
+    "process_title": "From company message to polished corporate video",
+    "process_description": "Corporate video works best when the purpose, audience and delivery channels are clear before production begins."
+  }
+}

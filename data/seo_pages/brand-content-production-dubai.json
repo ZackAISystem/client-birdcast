@@ -1,0 +1,126 @@
+{
+  "defaults": {
+    "brand": "Birdcast",
+    "city": "Dubai",
+    "booking_url": "https://birdcast-studio.podyx.com/by-date",
+    "whatsapp_url": "https://wa.me/971561886153",
+    "hero_eyebrow": "Birdcast Dubai",
+    "final_cta_title": "Ready to create professional content in Dubai?",
+    "final_cta_text": "Tell us what you want to record and the Birdcast team will guide you to the right studio, format and production setup.",
+    "final_cta_booking_label": "Book a Session",
+    "final_cta_whatsapp_label": "Talk on WhatsApp",
+    "global_trust_points": [
+      "Professional Dubai podcast studios",
+      "Multi-camera recording setup",
+      "Broadcast-level production experience",
+      "Fast delivery through Google Drive"
+    ],
+    "shared_process": [
+      {
+        "title": "Shape the brief",
+        "text": "Clarify the campaign goal, message, audience, platforms and the type of brand content you need."
+      },
+      {
+        "title": "Plan the shoot",
+        "text": "Define speakers, interview flow, set choice, shot list and whether the session needs cutdowns or campaign assets."
+      },
+      {
+        "title": "Film in studio",
+        "text": "Record with professional cameras, audio, lighting and production guidance so the content feels intentional."
+      },
+      {
+        "title": "Prepare assets",
+        "text": "Deliver content in a structure your team can use for social, website, LinkedIn or campaign distribution."
+      }
+    ],
+    "shared_why": [
+      {
+        "title": "Studio quality",
+        "text": "Record in a professional environment built for podcasts, interviews, social content and business media."
+      },
+      {
+        "title": "Broadcast experience",
+        "text": "Birdcast is led by people with serious broadcast and media production experience."
+      },
+      {
+        "title": "Clear production flow",
+        "text": "From planning to recording and delivery, the process is structured and easy to follow."
+      },
+      {
+        "title": "Dubai locations",
+        "text": "Use Birdcast studio setups in Business Bay and Dubai Investment Park depending on your shoot."
+      }
+    ]
+  },
+  "page": {
+    "key": "brand-content-production-dubai",
+    "url": "/brand-content-production-dubai/",
+    "slug": "brand-content-production-dubai",
+    "seo_title": "Brand Content Production in Dubai | Birdcast",
+    "seo_description": "Produce brand videos, founder stories, campaign interviews and social content in Dubai with Birdcast’s studio-led production team.",
+    "h1": "Brand Content Production in Dubai",
+    "subtitle": "Plan and film campaign interviews, founder stories, product messages and social assets with a Dubai production team that can move from brief to publish-ready content.",
+    "primary_cta_label": "Talk on WhatsApp",
+    "primary_cta_url": "https://wa.me/971561886153",
+    "secondary_cta_label": "View Production Work",
+    "secondary_cta_url": "/#video-production-work",
+    "cta_type": "whatsapp",
+    "intent": "Brand content production Dubai",
+    "audience_note": "For marketing teams, agencies and brands that need polished campaign content without managing a full in-house production setup.",
+    "audiences": [
+      {
+        "title": "Brand managers",
+        "text": "Turn campaign ideas, launches and product messages into structured studio video content."
+      },
+      {
+        "title": "Creative agencies",
+        "text": "Use Birdcast as a Dubai production partner for client shoots and branded conversations."
+      },
+      {
+        "title": "Marketing teams",
+        "text": "Film founder stories, explainers, social assets and interview-led campaign material."
+      },
+      {
+        "title": "Launch teams",
+        "text": "Create video assets around a product, service, event or brand announcement."
+      }
+    ],
+    "record_formats": [
+      "Campaign interview videos",
+      "Founder and customer stories",
+      "Product launch messages",
+      "Social media cutdowns",
+      "Brand authority videos"
+    ],
+    "faq": [
+      {
+        "question": "Can Birdcast help if we only have a rough brand idea?",
+        "answer": "Yes. You can start with a rough campaign goal, product message or founder story. Birdcast can help shape that into a practical recording structure before the shoot."
+      },
+      {
+        "question": "Can we create both a main video and shorter social clips?",
+        "answer": "Yes. Brand shoots can be planned so the same session creates a main asset plus shorter edits for LinkedIn, Instagram, websites or campaign pages."
+      },
+      {
+        "question": "Is this suitable for agency client work?",
+        "answer": "Yes. Agencies can use Birdcast as a Dubai studio and production partner when they need polished execution without building a temporary production setup from scratch."
+      },
+      {
+        "question": "Should we send brand guidelines before the shoot?",
+        "answer": "Yes. Send any brand tone, visual references, campaign notes or required talking points before recording so the session matches the intended direction."
+      },
+      {
+        "question": "What should we send on WhatsApp first?",
+        "answer": "Send the content goal, number of speakers, preferred platforms, deadline and any examples you like. That helps the team recommend the right format and studio setup."
+      }
+    ],
+    "related": [
+      "video-production-for-companies-dubai",
+      "branded-podcast-production-dubai",
+      "real-estate-video-production-dubai",
+      "corporate-video-production-dubai"
+    ],
+    "process_title": "From brand brief to usable campaign content",
+    "process_description": "A brand shoot needs more than cameras. Birdcast helps turn the brief into a clear recording plan, studio setup and content delivery flow."
+  }
+}

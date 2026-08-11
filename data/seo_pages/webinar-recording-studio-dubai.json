@@ -1,0 +1,126 @@
+{
+  "defaults": {
+    "brand": "Birdcast",
+    "city": "Dubai",
+    "booking_url": "https://birdcast-studio.podyx.com/by-date",
+    "whatsapp_url": "https://wa.me/971561886153",
+    "hero_eyebrow": "Birdcast Dubai",
+    "final_cta_title": "Ready to create professional content in Dubai?",
+    "final_cta_text": "Tell us what you want to record and the Birdcast team will guide you to the right studio, format and production setup.",
+    "final_cta_booking_label": "Book a Session",
+    "final_cta_whatsapp_label": "Talk on WhatsApp",
+    "global_trust_points": [
+      "Professional Dubai podcast studios",
+      "Multi-camera recording setup",
+      "Broadcast-level production experience",
+      "Fast delivery through Google Drive"
+    ],
+    "shared_process": [
+      {
+        "title": "Define the topic",
+        "text": "Clarify the webinar theme, audience level, speaker count and what viewers should take away."
+      },
+      {
+        "title": "Plan materials",
+        "text": "Prepare slides, talking points, examples and whether the format is direct-to-camera or presentation-led."
+      },
+      {
+        "title": "Record the session",
+        "text": "Capture the webinar in studio with clean sound, lighting and a controlled recording setup."
+      },
+      {
+        "title": "Prepare reuse",
+        "text": "Use the recording for lead generation, education, internal training, course modules or client content."
+      }
+    ],
+    "shared_why": [
+      {
+        "title": "Studio quality",
+        "text": "Record in a professional environment built for podcasts, interviews, social content and business media."
+      },
+      {
+        "title": "Broadcast experience",
+        "text": "Birdcast is led by people with serious broadcast and media production experience."
+      },
+      {
+        "title": "Clear production flow",
+        "text": "From planning to recording and delivery, the process is structured and easy to follow."
+      },
+      {
+        "title": "Dubai locations",
+        "text": "Use Birdcast studio setups in Business Bay and Dubai Investment Park depending on your shoot."
+      }
+    ]
+  },
+  "page": {
+    "key": "webinar-recording-studio-dubai",
+    "url": "/webinar-recording-studio-dubai/",
+    "slug": "webinar-recording-studio-dubai",
+    "seo_title": "Webinar Recording Studio in Dubai | Birdcast",
+    "seo_description": "Record webinars, expert sessions, presentations and educational videos in Dubai with Birdcast’s professional studio setup.",
+    "h1": "Webinar Recording Studio in Dubai",
+    "subtitle": "Record webinars, expert sessions and online presentations with clean audio, strong visuals and a professional studio setup.",
+    "primary_cta_label": "Talk on WhatsApp",
+    "primary_cta_url": "https://wa.me/971561886153",
+    "secondary_cta_label": "View Dubai Studios",
+    "secondary_cta_url": "/#studios",
+    "cta_type": "whatsapp",
+    "intent": "Webinar recording studio Dubai",
+    "audience_note": "For educators, consultants, coaches, companies and experts creating webinar-style content that needs to look more polished than a webcam call.",
+    "audiences": [
+      {
+        "title": "Educators",
+        "text": "Record online lessons, expert sessions and webinar-style educational content."
+      },
+      {
+        "title": "Consultants",
+        "text": "Turn frameworks, presentations and advisory topics into professional video sessions."
+      },
+      {
+        "title": "Companies",
+        "text": "Create webinars for clients, partners, employees, leads or community audiences."
+      },
+      {
+        "title": "Coaches",
+        "text": "Record teaching sessions, presentations and expert-led content with studio quality."
+      }
+    ],
+    "record_formats": [
+      "Webinar recordings",
+      "Expert teaching sessions",
+      "Presentation-led videos",
+      "Educational webinar content",
+      "Client training sessions"
+    ],
+    "faq": [
+      {
+        "question": "Can Birdcast record webinars?",
+        "answer": "Yes. Birdcast can support webinar-style recording, expert sessions, presentations and educational content."
+      },
+      {
+        "question": "Can I record a presentation in the studio?",
+        "answer": "Yes. The studio can be used for presentation-led videos, expert sessions and structured educational content."
+      },
+      {
+        "question": "Can webinar content become a course?",
+        "answer": "Yes. Webinar recordings can often be repurposed into course modules, learning content or client education assets."
+      },
+      {
+        "question": "Should I bring slides?",
+        "answer": "If slides are part of the content, prepare them before the session and discuss the recording flow with the team."
+      },
+      {
+        "question": "What should I prepare before the webinar recording?",
+        "answer": "Send the webinar topic, number of speakers, slide plan, expected duration and preferred delivery date."
+      }
+    ],
+    "related": [
+      "course-recording-studio-dubai",
+      "training-video-recording-dubai",
+      "youtube-video-studio-dubai",
+      "content-studio-for-founders-dubai"
+    ],
+    "process_title": "From webinar topic to polished recorded session",
+    "process_description": "Webinar content becomes stronger when the teaching flow, slides and speaker setup are planned before recording."
+  }
+}

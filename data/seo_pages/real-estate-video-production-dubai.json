@@ -1,0 +1,126 @@
+{
+  "defaults": {
+    "brand": "Birdcast",
+    "city": "Dubai",
+    "booking_url": "https://birdcast-studio.podyx.com/by-date",
+    "whatsapp_url": "https://wa.me/971561886153",
+    "hero_eyebrow": "Birdcast Dubai",
+    "final_cta_title": "Ready to create professional content in Dubai?",
+    "final_cta_text": "Tell us what you want to record and the Birdcast team will guide you to the right studio, format and production setup.",
+    "final_cta_booking_label": "Book a Session",
+    "final_cta_whatsapp_label": "Talk on WhatsApp",
+    "global_trust_points": [
+      "Professional Dubai podcast studios",
+      "Multi-camera recording setup",
+      "Broadcast-level production experience",
+      "Fast delivery through Google Drive"
+    ],
+    "shared_process": [
+      {
+        "title": "Choose the angle",
+        "text": "Decide whether the content is a market update, broker video, developer interview, property explainer or launch message."
+      },
+      {
+        "title": "Plan the message",
+        "text": "Prepare talking points, target audience, platform needs and whether the session should create multiple clips."
+      },
+      {
+        "title": "Record professionally",
+        "text": "Film in a studio setup with clean sound, lighting and guidance for confident delivery."
+      },
+      {
+        "title": "Create assets",
+        "text": "Prepare content for LinkedIn, reels, websites, campaigns or brokerage channels."
+      }
+    ],
+    "shared_why": [
+      {
+        "title": "Studio quality",
+        "text": "Record in a professional environment built for podcasts, interviews, social content and business media."
+      },
+      {
+        "title": "Broadcast experience",
+        "text": "Birdcast is led by people with serious broadcast and media production experience."
+      },
+      {
+        "title": "Clear production flow",
+        "text": "From planning to recording and delivery, the process is structured and easy to follow."
+      },
+      {
+        "title": "Dubai locations",
+        "text": "Use Birdcast studio setups in Business Bay and Dubai Investment Park depending on your shoot."
+      }
+    ]
+  },
+  "page": {
+    "key": "real-estate-video-production-dubai",
+    "url": "/real-estate-video-production-dubai/",
+    "slug": "real-estate-video-production-dubai",
+    "seo_title": "Real Estate Video Production in Dubai | Birdcast",
+    "seo_description": "Create Dubai real estate videos, broker content, market updates, developer interviews and property-focused media with Birdcast.",
+    "h1": "Real Estate Video Production in Dubai",
+    "subtitle": "Create real estate videos, broker content, market updates and property-focused media with a professional Dubai studio and production team.",
+    "primary_cta_label": "Talk on WhatsApp",
+    "primary_cta_url": "https://wa.me/971561886153",
+    "secondary_cta_label": "View Production Work",
+    "secondary_cta_url": "/#video-production-work",
+    "cta_type": "whatsapp",
+    "intent": "Real estate video production Dubai",
+    "audience_note": "For brokers, developers, agencies and property experts who need trust-building video content for Dubai real estate audiences.",
+    "audiences": [
+      {
+        "title": "Real estate brokers",
+        "text": "Record market commentary, buyer advice, personal brand videos and property explainer content."
+      },
+      {
+        "title": "Developers",
+        "text": "Create launch interviews, project stories, leadership videos and campaign material."
+      },
+      {
+        "title": "Brokerage teams",
+        "text": "Produce recurring content for agents, company pages, listings, launches and social channels."
+      },
+      {
+        "title": "Property experts",
+        "text": "Film educational videos, area insights and opinion-led content in a professional studio."
+      }
+    ],
+    "record_formats": [
+      "Dubai market update videos",
+      "Broker personal brand clips",
+      "Developer interview content",
+      "Property explainer videos",
+      "Real estate LinkedIn and reels assets"
+    ],
+    "faq": [
+      {
+        "question": "Can Birdcast create videos for Dubai real estate brokers?",
+        "answer": "Yes. Brokers can record market commentary, buyer advice, personal brand videos, area insights and property-focused explainers."
+      },
+      {
+        "question": "Can developers record launch or campaign content?",
+        "answer": "Yes. Birdcast can support developer interviews, project stories, leadership videos and campaign material."
+      },
+      {
+        "question": "Can one real estate session create several clips?",
+        "answer": "Yes. A planned session can produce multiple short clips, one longer interview or a mix of both."
+      },
+      {
+        "question": "Is this only for studio content?",
+        "answer": "This page focuses on studio-led real estate video, but WhatsApp is best if the project needs a broader production discussion."
+      },
+      {
+        "question": "What should a broker send before recording?",
+        "answer": "Send the topic, target audience, preferred platforms, any key market points and examples of content you like."
+      }
+    ],
+    "related": [
+      "linkedin-video-recording-dubai",
+      "short-form-content-studio-dubai",
+      "video-production-for-companies-dubai",
+      "brand-content-production-dubai"
+    ],
+    "process_title": "From real estate topic to trust-building video",
+    "process_description": "Real estate video works best when the audience, market message and distribution channel are clear from the start."
+  }
+}

@@ -1,0 +1,126 @@
+{
+  "defaults": {
+    "brand": "Birdcast",
+    "city": "Dubai",
+    "booking_url": "https://birdcast-studio.podyx.com/by-date",
+    "whatsapp_url": "https://wa.me/971561886153",
+    "hero_eyebrow": "Birdcast Dubai",
+    "final_cta_title": "Ready to create professional content in Dubai?",
+    "final_cta_text": "Tell us what you want to record and the Birdcast team will guide you to the right studio, format and production setup.",
+    "final_cta_booking_label": "Book a Session",
+    "final_cta_whatsapp_label": "Talk on WhatsApp",
+    "global_trust_points": [
+      "Professional Dubai podcast studios",
+      "Multi-camera recording setup",
+      "Broadcast-level production experience",
+      "Fast delivery through Google Drive"
+    ],
+    "shared_process": [
+      {
+        "title": "Clarify the message",
+        "text": "Define the audience, key points, tone and whether the interview is for LinkedIn, PR, internal use or website content."
+      },
+      {
+        "title": "Plan the session",
+        "text": "Confirm questions, speaker count, set choice, pacing and any approvals needed before filming."
+      },
+      {
+        "title": "Record with focus",
+        "text": "Film in a professional studio with clean audio, lighting and camera framing suited to senior communication."
+      },
+      {
+        "title": "Prepare outputs",
+        "text": "Deliver content for review, publishing, internal channels or short-form repurposing."
+      }
+    ],
+    "shared_why": [
+      {
+        "title": "Studio quality",
+        "text": "Record in a professional environment built for podcasts, interviews, social content and business media."
+      },
+      {
+        "title": "Broadcast experience",
+        "text": "Birdcast is led by people with serious broadcast and media production experience."
+      },
+      {
+        "title": "Clear production flow",
+        "text": "From planning to recording and delivery, the process is structured and easy to follow."
+      },
+      {
+        "title": "Dubai locations",
+        "text": "Use Birdcast studio setups in Business Bay and Dubai Investment Park depending on your shoot."
+      }
+    ]
+  },
+  "page": {
+    "key": "executive-interview-recording-dubai",
+    "url": "/executive-interview-recording-dubai/",
+    "slug": "executive-interview-recording-dubai",
+    "seo_title": "Executive Interview Recording in Dubai | Birdcast",
+    "seo_description": "Record executive interviews, CEO messages, founder stories and leadership videos in Dubai with Birdcast.",
+    "h1": "Executive Interview Recording in Dubai",
+    "subtitle": "Create polished executive interviews and leadership videos for CEOs, founders, investors and business leaders who need a serious on-camera presence.",
+    "primary_cta_label": "Talk on WhatsApp",
+    "primary_cta_url": "https://wa.me/971561886153",
+    "secondary_cta_label": "View Production Work",
+    "secondary_cta_url": "/#video-production-work",
+    "cta_type": "whatsapp",
+    "intent": "Executive interview recording Dubai",
+    "audience_note": "For senior leaders who need premium interview content for LinkedIn, PR, websites, internal communication or brand authority.",
+    "audiences": [
+      {
+        "title": "CEOs",
+        "text": "Record leadership messages, company updates and executive interviews with a polished setup."
+      },
+      {
+        "title": "Founders",
+        "text": "Create founder story videos, market commentary and investor-facing content."
+      },
+      {
+        "title": "Investors",
+        "text": "Film interviews, fund updates, thought leadership and portfolio-related content."
+      },
+      {
+        "title": "Communications teams",
+        "text": "Produce executive content for PR, websites, internal channels and campaigns."
+      }
+    ],
+    "record_formats": [
+      "CEO interview videos",
+      "Founder story recordings",
+      "Executive announcements",
+      "Investor update videos",
+      "Leadership thought pieces"
+    ],
+    "faq": [
+      {
+        "question": "Is Birdcast suitable for CEO or senior leadership content?",
+        "answer": "Yes. Birdcast’s studio setup works well for CEO interviews, founder stories, leadership messages and executive communication."
+      },
+      {
+        "question": "Can the recording feel premium and serious?",
+        "answer": "Yes. The session can be planned with professional lighting, camera positioning, audio and a controlled interview flow."
+      },
+      {
+        "question": "Can executive interviews be used on LinkedIn?",
+        "answer": "Yes. Executive interviews can be prepared for LinkedIn, websites, internal communication, PR assets or campaign pages."
+      },
+      {
+        "question": "Should questions be prepared in advance?",
+        "answer": "Yes. Prepared questions or talking points help keep the session efficient and make the final recording more focused."
+      },
+      {
+        "question": "Why should we message before booking?",
+        "answer": "Executive projects often involve audience, approval and timing requirements, so a short WhatsApp discussion helps confirm the right setup."
+      }
+    ],
+    "related": [
+      "interview-studio-dubai",
+      "linkedin-video-recording-dubai",
+      "corporate-video-production-dubai",
+      "content-studio-for-founders-dubai"
+    ],
+    "process_title": "From executive message to polished interview content",
+    "process_description": "Executive content needs clarity, confidence and a recording flow that protects the speaker’s time."
+  }
+}

@@ -1,0 +1,126 @@
+{
+  "defaults": {
+    "brand": "Birdcast",
+    "city": "Dubai",
+    "booking_url": "https://birdcast-studio.podyx.com/by-date",
+    "whatsapp_url": "https://wa.me/971561886153",
+    "hero_eyebrow": "Birdcast Dubai",
+    "final_cta_title": "Ready to create professional content in Dubai?",
+    "final_cta_text": "Tell us what you want to record and the Birdcast team will guide you to the right studio, format and production setup.",
+    "final_cta_booking_label": "Book a Session",
+    "final_cta_whatsapp_label": "Talk on WhatsApp",
+    "global_trust_points": [
+      "Professional Dubai podcast studios",
+      "Multi-camera recording setup",
+      "Broadcast-level production experience",
+      "Fast delivery through Google Drive"
+    ],
+    "shared_process": [
+      {
+        "title": "Define the format",
+        "text": "Choose whether the session is an interview, panel, business show, expert roundtable or media statement."
+      },
+      {
+        "title": "Plan speakers",
+        "text": "Clarify guest count, seating, pacing, talking points and the visual level expected from the recording."
+      },
+      {
+        "title": "Record with control",
+        "text": "Use professional cameras, sound and lighting in a studio environment built for focused presentation."
+      },
+      {
+        "title": "Package the output",
+        "text": "Prepare the recorded content for review, publishing, internal use or campaign distribution."
+      }
+    ],
+    "shared_why": [
+      {
+        "title": "Studio quality",
+        "text": "Record in a professional environment built for podcasts, interviews, social content and business media."
+      },
+      {
+        "title": "Broadcast experience",
+        "text": "Birdcast is led by people with serious broadcast and media production experience."
+      },
+      {
+        "title": "Clear production flow",
+        "text": "From planning to recording and delivery, the process is structured and easy to follow."
+      },
+      {
+        "title": "Dubai locations",
+        "text": "Use Birdcast studio setups in Business Bay and Dubai Investment Park depending on your shoot."
+      }
+    ]
+  },
+  "page": {
+    "key": "broadcast-studio-dubai",
+    "url": "/broadcast-studio-dubai/",
+    "slug": "broadcast-studio-dubai",
+    "seo_title": "Broadcast Studio in Dubai | Birdcast",
+    "seo_description": "Record broadcast-style interviews, panels, business shows and professional video conversations in Dubai with Birdcast.",
+    "h1": "Broadcast Studio in Dubai",
+    "subtitle": "Record broadcast-style interviews, panel conversations and business media content in a studio built for camera-ready presentation.",
+    "primary_cta_label": "Talk on WhatsApp",
+    "primary_cta_url": "https://wa.me/971561886153",
+    "secondary_cta_label": "View Dubai Studios",
+    "secondary_cta_url": "/#studios",
+    "cta_type": "whatsapp",
+    "intent": "Broadcast studio Dubai",
+    "audience_note": "For media teams, companies, founders and brands that need a polished studio environment with clear production discipline.",
+    "audiences": [
+      {
+        "title": "Media teams",
+        "text": "Record structured conversations, interviews and show-style content in a controlled studio environment."
+      },
+      {
+        "title": "Corporate brands",
+        "text": "Create polished business media for launches, leadership, experts or public communication."
+      },
+      {
+        "title": "Founders",
+        "text": "Film serious thought-leadership conversations with a stronger broadcast-style presence."
+      },
+      {
+        "title": "Event teams",
+        "text": "Capture post-event interviews, speaker conversations or expert panels in a studio format."
+      }
+    ],
+    "record_formats": [
+      "Broadcast-style interviews",
+      "Panel conversations",
+      "Business talk shows",
+      "Expert roundtables",
+      "Studio media statements"
+    ],
+    "faq": [
+      {
+        "question": "What makes this different from a normal podcast booking?",
+        "answer": "Broadcast-style recordings usually need more planning around guest count, pacing, camera direction and visual tone. It is closer to a controlled business media shoot."
+      },
+      {
+        "question": "Can Birdcast record panel discussions?",
+        "answer": "Yes. Panel and roundtable formats can be planned depending on the number of speakers, seating needs and selected studio setup."
+      },
+      {
+        "question": "Is this suitable for company announcements?",
+        "answer": "Yes. Companies can use this format for leadership messages, expert panels, campaign conversations or public-facing business media."
+      },
+      {
+        "question": "Should we prepare questions in advance?",
+        "answer": "Yes. Prepared talking points or a question flow help the team understand the pacing and make the recording more focused."
+      },
+      {
+        "question": "Why is WhatsApp recommended first?",
+        "answer": "Broadcast-style projects often have custom requirements, so it is better to confirm speakers, format and setup before choosing a booking slot."
+      }
+    ],
+    "related": [
+      "interview-studio-dubai",
+      "branded-podcast-production-dubai",
+      "corporate-video-production-dubai",
+      "video-production-for-companies-dubai"
+    ],
+    "process_title": "From broadcast idea to camera-ready recording",
+    "process_description": "Broadcast-style content needs structure, speaker planning and a studio setup that feels more controlled than a casual video shoot."
+  }
+}

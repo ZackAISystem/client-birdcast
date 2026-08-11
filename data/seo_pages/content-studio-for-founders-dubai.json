@@ -1,0 +1,126 @@
+{
+  "defaults": {
+    "brand": "Birdcast",
+    "city": "Dubai",
+    "booking_url": "https://birdcast-studio.podyx.com/by-date",
+    "whatsapp_url": "https://wa.me/971561886153",
+    "hero_eyebrow": "Birdcast Dubai",
+    "final_cta_title": "Ready to create professional content in Dubai?",
+    "final_cta_text": "Tell us what you want to record and the Birdcast team will guide you to the right studio, format and production setup.",
+    "final_cta_booking_label": "Book a Session",
+    "final_cta_whatsapp_label": "Talk on WhatsApp",
+    "global_trust_points": [
+      "Professional Dubai podcast studios",
+      "Multi-camera recording setup",
+      "Broadcast-level production experience",
+      "Fast delivery through Google Drive"
+    ],
+    "shared_process": [
+      {
+        "title": "Choose topics",
+        "text": "List the founder stories, opinions, company updates, lessons or market points you want to record."
+      },
+      {
+        "title": "Plan formats",
+        "text": "Decide whether the session should be short videos, podcast clips, interviews, LinkedIn content or a mix."
+      },
+      {
+        "title": "Batch founder content",
+        "text": "Capture multiple pieces of content in one studio session with clean audio, framing and production guidance."
+      },
+      {
+        "title": "Use the content",
+        "text": "Receive content that can support LinkedIn, website, investor updates, social channels or company communication."
+      }
+    ],
+    "shared_why": [
+      {
+        "title": "Studio quality",
+        "text": "Record in a professional environment built for podcasts, interviews, social content and business media."
+      },
+      {
+        "title": "Broadcast experience",
+        "text": "Birdcast is led by people with serious broadcast and media production experience."
+      },
+      {
+        "title": "Clear production flow",
+        "text": "From planning to recording and delivery, the process is structured and easy to follow."
+      },
+      {
+        "title": "Dubai locations",
+        "text": "Use Birdcast studio setups in Business Bay and Dubai Investment Park depending on your shoot."
+      }
+    ]
+  },
+  "page": {
+    "key": "content-studio-for-founders-dubai",
+    "url": "/content-studio-for-founders-dubai/",
+    "slug": "content-studio-for-founders-dubai",
+    "seo_title": "Content Studio for Founders in Dubai | Birdcast",
+    "seo_description": "Create founder videos, LinkedIn content, interviews, podcasts and authority-building media in Dubai with Birdcast.",
+    "h1": "Content Studio for Founders in Dubai",
+    "subtitle": "Create founder-led content for LinkedIn, podcasts, interviews, investor updates and short videos in a professional Dubai studio.",
+    "primary_cta_label": "Talk on WhatsApp",
+    "primary_cta_url": "https://wa.me/971561886153",
+    "secondary_cta_label": "Watch Showreel",
+    "secondary_cta_url": "/#work",
+    "cta_type": "whatsapp",
+    "intent": "Content studio for founders Dubai",
+    "audience_note": "For founders who want repeatable high-quality content without building an internal studio, hiring a full production team or managing every shoot detail.",
+    "audiences": [
+      {
+        "title": "Startup founders",
+        "text": "Record product stories, investor updates, founder lessons and market commentary."
+      },
+      {
+        "title": "CEOs",
+        "text": "Create executive content for LinkedIn, websites, internal communication and company channels."
+      },
+      {
+        "title": "Personal brands",
+        "text": "Turn expertise into repeatable short-form and long-form content with a polished studio look."
+      },
+      {
+        "title": "Advisors and consultants",
+        "text": "Film opinion-led videos, frameworks and expert interviews that build authority."
+      }
+    ],
+    "record_formats": [
+      "Founder authority videos",
+      "LinkedIn thought-leadership clips",
+      "Founder podcast interviews",
+      "Company update videos",
+      "Investor and market commentary"
+    ],
+    "faq": [
+      {
+        "question": "Can I record several founder videos in one visit?",
+        "answer": "Yes. Founder content works well in batches when the topics are prepared before the session. This can make one studio visit much more useful."
+      },
+      {
+        "question": "Do I need a full script?",
+        "answer": "No. A full script is optional. Strong bullet points, clear messages and a simple recording flow are often better for natural founder-led content."
+      },
+      {
+        "question": "Can Birdcast help me choose between podcast and short-form?",
+        "answer": "Yes. The team can help decide whether your topics are better as short clips, interview content, podcast-style conversations or a mixed session."
+      },
+      {
+        "question": "Is this useful for LinkedIn?",
+        "answer": "Yes. Founder-led content can be shaped for LinkedIn posts, company pages, websites, newsletters and short social clips."
+      },
+      {
+        "question": "What should I send before recording?",
+        "answer": "Send your topics, target audience, preferred tone, examples you like and whether you want long-form content, short clips or both."
+      }
+    ],
+    "related": [
+      "linkedin-video-recording-dubai",
+      "executive-interview-recording-dubai",
+      "podcast-studio-dubai",
+      "short-form-content-studio-dubai"
+    ],
+    "process_title": "From founder ideas to a repeatable content session",
+    "process_description": "Founder content becomes stronger when topics, formats and channels are planned before the camera starts."
+  }
+}

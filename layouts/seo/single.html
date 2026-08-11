@@ -1,0 +1,233 @@
+{{ $home := .Site.Data.home }}
+{{ $data := index .Site.Data.seo_pages .Params.page_key }}
+{{ $p := $data.page }}
+{{ $defaults := $data.defaults }}
+
+{{ partial "core/head.html" . }}
+
+<body class="seo-page-body">
+  {{ partial "blocks/header.html" . }}
+
+  <main class="seo-page">
+    <section class="seo-hero">
+      <div class="seo-hero__inner">
+        <div class="seo-hero__content">
+          <div class="seo-hero__eyebrow">
+            {{ $defaults.hero_eyebrow }}
+          </div>
+
+          <h1 class="seo-hero__title">
+            {{ $p.h1 }}
+          </h1>
+
+          <p class="seo-hero__subtitle">
+            {{ $p.subtitle }}
+          </p>
+
+          <div class="seo-hero__actions">
+            <a
+              class="seo-hero__btn seo-hero__btn--primary"
+              href="{{ $p.primary_cta_url }}"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              {{ $p.primary_cta_label }} <span>›</span>
+            </a>
+
+            <a
+              class="seo-hero__btn seo-hero__btn--secondary"
+              href="{{ $p.secondary_cta_url }}"
+              {{ if hasPrefix $p.secondary_cta_url "http" }}target="_blank" rel="noopener noreferrer"{{ end }}
+            >
+              {{ $p.secondary_cta_label }}
+            </a>
+          </div>
+        </div>
+
+        <aside class="seo-hero__panel">
+          <span class="seo-hero__panel-label">Best for</span>
+          <p>{{ $p.audience_note }}</p>
+
+          <div class="seo-hero__trust">
+            {{ range $defaults.global_trust_points }}
+              <span>{{ . }}</span>
+            {{ end }}
+          </div>
+        </aside>
+      </div>
+    </section>
+
+    <section class="seo-section seo-section--light">
+      <div class="seo-section__inner">
+        <div class="seo-section__head">
+          <div class="seo-section__eyebrow">Who it is for</div>
+          <h2>Built for the way you create</h2>
+          <p>{{ $p.audience_note }}</p>
+        </div>
+
+        <div class="seo-card-grid seo-card-grid--four">
+          {{ range $p.audiences }}
+            <article class="seo-info-card">
+              <span class="seo-info-card__icon"></span>
+              <h3>{{ .title }}</h3>
+              <p>{{ .text }}</p>
+            </article>
+          {{ end }}
+        </div>
+      </div>
+    </section>
+
+    <section class="seo-section seo-section--dark">
+      <div class="seo-section__inner">
+        <div class="seo-section__split">
+          <div class="seo-section__head seo-section__head--dark">
+            <div class="seo-section__eyebrow">What you can record</div>
+            <h2>Content formats for {{ $p.intent }}</h2>
+            <p>Use Birdcast for focused recording sessions, professional conversations and production-ready content assets.</p>
+          </div>
+
+          <div class="seo-format-list">
+            {{ range $p.record_formats }}
+              <div class="seo-format-item">
+                <span>✓</span>
+                <strong>{{ . }}</strong>
+              </div>
+            {{ end }}
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="seo-section seo-section--light">
+      <div class="seo-section__inner">
+        <div class="seo-section__head">
+          <div class="seo-section__eyebrow">Why Birdcast</div>
+          <h2>Professional studio quality without a complicated process</h2>
+          <p>Birdcast combines studio space, production support and a clear content workflow for creators and companies in Dubai.</p>
+        </div>
+
+        <div class="seo-card-grid seo-card-grid--four">
+          {{ range $defaults.shared_why }}
+            <article class="seo-info-card">
+              <span class="seo-info-card__icon"></span>
+              <h3>{{ .title }}</h3>
+              <p>{{ .text }}</p>
+            </article>
+          {{ end }}
+        </div>
+      </div>
+    </section>
+
+    <section class="seo-section seo-section--dark">
+      <div class="seo-section__inner">
+        <div class="seo-section__head seo-section__head--dark">
+          <div class="seo-section__eyebrow">How it works</div>
+          <h2>{{ $p.process_title | default "A clear path from idea to delivery" }}</h2>
+          <p>{{ $p.process_description | default "The process is simple: choose the format, plan the session, record with support and receive content prepared for use." }}</p>
+        </div>
+
+        <div class="seo-process">
+          {{ range $i, $step := $defaults.shared_process }}
+            <article class="seo-process__step">
+              <span>{{ printf "%02d" (add $i 1) }}</span>
+              <h3>{{ $step.title }}</h3>
+              <p>{{ $step.text }}</p>
+            </article>
+          {{ end }}
+        </div>
+      </div>
+    </section>
+
+    <section class="seo-section seo-section--light">
+      <div class="seo-section__inner">
+        <div class="seo-section__head">
+          <div class="seo-section__eyebrow">FAQ</div>
+          <h2>Questions about {{ $p.h1 }}</h2>
+          <p>Answers to common questions before you book or speak with the Birdcast team.</p>
+        </div>
+
+        <div class="seo-faq-list">
+          {{ range $p.faq }}
+            <details class="seo-faq-item">
+              <summary>
+                <span>{{ .question }}</span>
+              </summary>
+
+              <div class="seo-faq-item__content">
+                <p>{{ .answer }}</p>
+              </div>
+            </details>
+          {{ end }}
+        </div>
+      </div>
+    </section>
+
+    <section class="seo-section seo-section--related">
+      <div class="seo-section__inner">
+        <div class="seo-section__head seo-section__head--dark">
+          <div class="seo-section__eyebrow">See Birdcast</div>
+          <h2>See the studio, sets and production work before you book</h2>
+          <p>Open the main Birdcast visual sections to check the podcast sets, studio spaces, showreel and selected video production work.</p>
+        </div>
+
+        <div class="seo-related-grid seo-related-grid--proof">
+          <a class="seo-related-card seo-related-card--proof" href="/#sets">
+            <span>Podcast sets</span>
+            <strong>View podcast sets and photo options</strong>
+            <em>See set photos ›</em>
+          </a>
+
+          <a class="seo-related-card seo-related-card--proof" href="/#work">
+            <span>Showreel</span>
+            <strong>Watch the Birdcast showreel</strong>
+            <em>Watch video ›</em>
+          </a>
+
+          <a class="seo-related-card seo-related-card--proof" href="/#video-production-work">
+            <span>Production work</span>
+            <strong>See selected video production work</strong>
+            <em>View work ›</em>
+          </a>
+
+          <a class="seo-related-card seo-related-card--proof" href="/#studios">
+            <span>Dubai studios</span>
+            <strong>View Business Bay and DIP studio options</strong>
+            <em>View studios ›</em>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <section class="seo-final-cta">
+      <div class="seo-final-cta__inner">
+        <div>
+          <h2>{{ $defaults.final_cta_title }}</h2>
+          <p>{{ $defaults.final_cta_text }}</p>
+        </div>
+
+        <div class="seo-final-cta__actions">
+          <a
+            class="seo-final-cta__btn seo-final-cta__btn--primary"
+            href="{{ $p.primary_cta_url }}"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            {{ $p.primary_cta_label }} <span>›</span>
+          </a>
+
+          <a
+            class="seo-final-cta__btn seo-final-cta__btn--secondary"
+            href="{{ $p.secondary_cta_url }}"
+            {{ if hasPrefix $p.secondary_cta_url "http" }}target="_blank" rel="noopener noreferrer"{{ end }}
+          >
+            {{ $p.secondary_cta_label }}
+          </a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  {{ partial "blocks/footer.html" . }}
+  {{ partial "core/scripts.html" . }}
+</body>
+</html>

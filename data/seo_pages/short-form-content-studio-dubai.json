@@ -1,0 +1,126 @@
+{
+  "defaults": {
+    "brand": "Birdcast",
+    "city": "Dubai",
+    "booking_url": "https://birdcast-studio.podyx.com/by-date",
+    "whatsapp_url": "https://wa.me/971561886153",
+    "hero_eyebrow": "Birdcast Dubai",
+    "final_cta_title": "Ready to create professional content in Dubai?",
+    "final_cta_text": "Tell us what you want to record and the Birdcast team will guide you to the right studio, format and production setup.",
+    "final_cta_booking_label": "Book a Session",
+    "final_cta_whatsapp_label": "Talk on WhatsApp",
+    "global_trust_points": [
+      "Professional Dubai podcast studios",
+      "Multi-camera recording setup",
+      "Broadcast-level production experience",
+      "Fast delivery through Google Drive"
+    ],
+    "shared_process": [
+      {
+        "title": "List the clips",
+        "text": "Prepare short topics, hooks, offers, tips or messages you want to record for social platforms."
+      },
+      {
+        "title": "Plan the style",
+        "text": "Choose direct-to-camera, interview snippets, founder clips, reels or short educational videos."
+      },
+      {
+        "title": "Record efficiently",
+        "text": "Batch-record multiple clips with professional audio, camera framing and lighting."
+      },
+      {
+        "title": "Use across channels",
+        "text": "Prepare clips for Instagram, TikTok, YouTube Shorts, LinkedIn or brand social channels."
+      }
+    ],
+    "shared_why": [
+      {
+        "title": "Studio quality",
+        "text": "Record in a professional environment built for podcasts, interviews, social content and business media."
+      },
+      {
+        "title": "Broadcast experience",
+        "text": "Birdcast is led by people with serious broadcast and media production experience."
+      },
+      {
+        "title": "Clear production flow",
+        "text": "From planning to recording and delivery, the process is structured and easy to follow."
+      },
+      {
+        "title": "Dubai locations",
+        "text": "Use Birdcast studio setups in Business Bay and Dubai Investment Park depending on your shoot."
+      }
+    ]
+  },
+  "page": {
+    "key": "short-form-content-studio-dubai",
+    "url": "/short-form-content-studio-dubai/",
+    "slug": "short-form-content-studio-dubai",
+    "seo_title": "Short Form Content Studio in Dubai | Reels & Shorts | Birdcast",
+    "seo_description": "Create reels, shorts, TikTok-style videos and social clips in Dubai with Birdcast’s studio, cameras, lighting and production support.",
+    "h1": "Short Form Content Studio in Dubai",
+    "subtitle": "Create reels, shorts and social media videos in a studio built for fast recording, polished delivery and repeatable content creation.",
+    "primary_cta_label": "Book Reels Shoot",
+    "primary_cta_url": "https://birdcast-studio.podyx.com/bundles/41ea655d-36a9-4c08-9c5b-d610120c3bd0/890efceb-a9a0-40f2-a331-cf1c5a60a83e",
+    "secondary_cta_label": "Watch Showreel",
+    "secondary_cta_url": "/#work",
+    "cta_type": "booking",
+    "intent": "Reels and Shorts studio Dubai",
+    "audience_note": "For creators, founders, brokers, coaches and brands that need short-form video for LinkedIn, Instagram, TikTok and YouTube Shorts.",
+    "audiences": [
+      {
+        "title": "Founders",
+        "text": "Create short thought-leadership videos, founder updates and social clips with a professional look."
+      },
+      {
+        "title": "Creators",
+        "text": "Film polished reels, shorts and vertical content in a studio environment."
+      },
+      {
+        "title": "Real estate experts",
+        "text": "Record market tips, buyer advice and personal brand clips for social platforms."
+      },
+      {
+        "title": "Brands",
+        "text": "Create recurring short-form content around campaigns, launches, products and announcements."
+      }
+    ],
+    "record_formats": [
+      "Instagram Reels",
+      "YouTube Shorts",
+      "TikTok-style studio videos",
+      "LinkedIn short clips",
+      "Social media explainers"
+    ],
+    "faq": [
+      {
+        "question": "Can Birdcast record reels and short-form videos?",
+        "answer": "Yes. Birdcast supports studio recording for reels, shorts, TikTok-style videos, LinkedIn clips and social media content."
+      },
+      {
+        "question": "How is this different from a podcast booking?",
+        "answer": "Short-form sessions focus on faster, repeatable social videos rather than one long-form episode. The planning is usually based on several short topics."
+      },
+      {
+        "question": "Can I batch several short videos?",
+        "answer": "Yes. With planned topics, several short videos can be recorded efficiently in one session."
+      },
+      {
+        "question": "Do I need a script for reels?",
+        "answer": "A script helps, but clear bullet points, a strong hook and a simple message can also work well for short-form content."
+      },
+      {
+        "question": "How do I book a reels shoot?",
+        "answer": "Use the short-form booking link for the package or message on WhatsApp if the setup, quantity or format is custom."
+      }
+    ],
+    "related": [
+      "linkedin-video-recording-dubai",
+      "content-studio-for-founders-dubai",
+      "youtube-video-studio-dubai",
+      "brand-content-production-dubai"
+    ],
+    "process_title": "From content ideas to batch-recorded short clips",
+    "process_description": "Short-form content is most effective when several focused topics are prepared before the studio session."
+  }
+}

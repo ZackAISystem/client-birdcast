@@ -1,0 +1,126 @@
+{
+  "defaults": {
+    "brand": "Birdcast",
+    "city": "Dubai",
+    "booking_url": "https://birdcast-studio.podyx.com/by-date",
+    "whatsapp_url": "https://wa.me/971561886153",
+    "hero_eyebrow": "Birdcast Dubai",
+    "final_cta_title": "Ready to create professional content in Dubai?",
+    "final_cta_text": "Tell us what you want to record and the Birdcast team will guide you to the right studio, format and production setup.",
+    "final_cta_booking_label": "Book a Session",
+    "final_cta_whatsapp_label": "Talk on WhatsApp",
+    "global_trust_points": [
+      "Professional Dubai podcast studios",
+      "Multi-camera recording setup",
+      "Broadcast-level production experience",
+      "Fast delivery through Google Drive"
+    ],
+    "shared_process": [
+      {
+        "title": "Choose the DIP session",
+        "text": "Book the DIP studio or message first if you need a custom production, team shoot or social content plan."
+      },
+      {
+        "title": "Plan the setup",
+        "text": "Confirm the format, speakers, set choice, content goals and whether you need reels or branded clips."
+      },
+      {
+        "title": "Record in DIP",
+        "text": "Use the Dubai Investment Park studio for podcasts, interviews, social content or team shoots."
+      },
+      {
+        "title": "Prepare delivery",
+        "text": "Receive the recorded content for review, editing, publishing or campaign use."
+      }
+    ],
+    "shared_why": [
+      {
+        "title": "Studio quality",
+        "text": "Record in a professional environment built for podcasts, interviews, social content and business media."
+      },
+      {
+        "title": "Broadcast experience",
+        "text": "Birdcast is led by people with serious broadcast and media production experience."
+      },
+      {
+        "title": "Clear production flow",
+        "text": "From planning to recording and delivery, the process is structured and easy to follow."
+      },
+      {
+        "title": "Dubai locations",
+        "text": "Use Birdcast studio setups in Business Bay and Dubai Investment Park depending on your shoot."
+      }
+    ]
+  },
+  "page": {
+    "key": "podcast-studio-dip",
+    "url": "/podcast-studio-dip/",
+    "slug": "podcast-studio-dip",
+    "seo_title": "Podcast Studio in Dubai Investment Park | Birdcast",
+    "seo_description": "Record podcasts, interviews, reels and branded content at Birdcast’s Dubai Investment Park studio.",
+    "h1": "Podcast Studio in Dubai Investment Park",
+    "subtitle": "Use a production-friendly studio in Dubai Investment Park for podcasts, interviews, short-form content and team shoots.",
+    "primary_cta_label": "Book DIP Studio",
+    "primary_cta_url": "https://birdcast-studio.podyx.com/by-date",
+    "secondary_cta_label": "View Podcast Sets",
+    "secondary_cta_url": "/#sets",
+    "cta_type": "booking",
+    "intent": "Podcast studio DIP",
+    "audience_note": "For creators, brands, teams and production-led clients who need a reliable studio setup in Dubai Investment Park.",
+    "audiences": [
+      {
+        "title": "DIP-based teams",
+        "text": "Record in a convenient Dubai Investment Park studio without moving production across the city."
+      },
+      {
+        "title": "Brand teams",
+        "text": "Create studio content for campaigns, product messages, interviews and social channels."
+      },
+      {
+        "title": "Production clients",
+        "text": "Use a setup suitable for team shoots, social clips, podcasts and branded video work."
+      },
+      {
+        "title": "Creators",
+        "text": "Record podcast episodes, reels, interviews and professional content in one studio environment."
+      }
+    ],
+    "record_formats": [
+      "Podcast recordings",
+      "Interview sessions",
+      "Reels and social clips",
+      "Product demo clips",
+      "Team and brand shoots"
+    ],
+    "faq": [
+      {
+        "question": "Where is the DIP studio?",
+        "answer": "Birdcast has a studio in Dubai Investment Park suitable for podcasts, reels, interviews, branded content and production work."
+      },
+      {
+        "question": "Can social content be recorded at the DIP studio?",
+        "answer": "Yes. The DIP studio can support social clips, branded content, podcast recordings and team shoots."
+      },
+      {
+        "question": "Is the DIP studio suitable for companies?",
+        "answer": "Yes. The setup works for creators, companies, agencies, production teams and brand clients."
+      },
+      {
+        "question": "Can I book the DIP studio online?",
+        "answer": "Yes. Use the booking button to choose a time for the Dubai Investment Park studio."
+      },
+      {
+        "question": "Can I ask questions before booking?",
+        "answer": "Yes. Use WhatsApp for custom questions about the shoot, setup, guests, timing or content format."
+      }
+    ],
+    "related": [
+      "podcast-studio-dubai",
+      "short-form-content-studio-dubai",
+      "brand-content-production-dubai",
+      "corporate-video-production-dubai"
+    ],
+    "process_title": "From production plan to DIP studio recording",
+    "process_description": "The DIP studio is suited to podcast, social and branded content sessions that need a production-friendly setup."
+  }
+}

@@ -1,0 +1,126 @@
+{
+  "defaults": {
+    "brand": "Birdcast",
+    "city": "Dubai",
+    "booking_url": "https://birdcast-studio.podyx.com/by-date",
+    "whatsapp_url": "https://wa.me/971561886153",
+    "hero_eyebrow": "Birdcast Dubai",
+    "final_cta_title": "Ready to create professional content in Dubai?",
+    "final_cta_text": "Tell us what you want to record and the Birdcast team will guide you to the right studio, format and production setup.",
+    "final_cta_booking_label": "Book a Session",
+    "final_cta_whatsapp_label": "Talk on WhatsApp",
+    "global_trust_points": [
+      "Professional Dubai podcast studios",
+      "Multi-camera recording setup",
+      "Broadcast-level production experience",
+      "Fast delivery through Google Drive"
+    ],
+    "shared_process": [
+      {
+        "title": "Clarify purpose",
+        "text": "Define whether the podcast is for internal communication, leadership, clients, HR, brand authority or education."
+      },
+      {
+        "title": "Plan speakers",
+        "text": "Confirm hosts, guests, talking points, episode structure, approvals and the desired tone."
+      },
+      {
+        "title": "Record the episode",
+        "text": "Film the conversation with professional audio, cameras and a studio team supporting the session."
+      },
+      {
+        "title": "Prepare delivery",
+        "text": "Deliver the recording and any agreed assets for internal use, publishing or repurposing."
+      }
+    ],
+    "shared_why": [
+      {
+        "title": "Studio quality",
+        "text": "Record in a professional environment built for podcasts, interviews, social content and business media."
+      },
+      {
+        "title": "Broadcast experience",
+        "text": "Birdcast is led by people with serious broadcast and media production experience."
+      },
+      {
+        "title": "Clear production flow",
+        "text": "From planning to recording and delivery, the process is structured and easy to follow."
+      },
+      {
+        "title": "Dubai locations",
+        "text": "Use Birdcast studio setups in Business Bay and Dubai Investment Park depending on your shoot."
+      }
+    ]
+  },
+  "page": {
+    "key": "corporate-podcast-recording-dubai",
+    "url": "/corporate-podcast-recording-dubai/",
+    "slug": "corporate-podcast-recording-dubai",
+    "seo_title": "Corporate Podcast Recording in Dubai | Birdcast",
+    "seo_description": "Record corporate podcasts, leadership conversations, internal shows and business interviews in Dubai with Birdcast.",
+    "h1": "Corporate Podcast Recording in Dubai",
+    "subtitle": "Create corporate podcasts, leadership interviews and business conversations with a studio team that understands brand communication and professional delivery.",
+    "primary_cta_label": "Talk on WhatsApp",
+    "primary_cta_url": "https://wa.me/971561886153",
+    "secondary_cta_label": "View Podcast Sets",
+    "secondary_cta_url": "/#sets",
+    "cta_type": "whatsapp",
+    "intent": "Corporate podcast recording Dubai",
+    "audience_note": "For companies, HR teams, founders and leadership teams that want business media with structure, clarity and production quality.",
+    "audiences": [
+      {
+        "title": "Corporate teams",
+        "text": "Produce internal shows, client-facing conversations and branded business content."
+      },
+      {
+        "title": "HR teams",
+        "text": "Record culture conversations, employee stories, onboarding content and leadership messages."
+      },
+      {
+        "title": "Founders",
+        "text": "Use podcast conversations to build authority, explain strategy and create repeatable content."
+      },
+      {
+        "title": "Corporate agencies",
+        "text": "Bring client teams into a professional Dubai podcast setup with production support."
+      }
+    ],
+    "record_formats": [
+      "Corporate podcast episodes",
+      "Leadership interview series",
+      "Internal culture shows",
+      "Business guest conversations",
+      "Founder and executive series"
+    ],
+    "faq": [
+      {
+        "question": "Can Birdcast support internal company podcasts?",
+        "answer": "Yes. Corporate podcasts can be created for employee communication, culture stories, leadership updates or internal education."
+      },
+      {
+        "question": "Can external guests join the recording?",
+        "answer": "Yes, depending on the selected studio setup and format. Share the number of speakers before booking so the team can guide the setup."
+      },
+      {
+        "question": "Can the same episode be used externally?",
+        "answer": "Yes. Corporate podcast content can be prepared for LinkedIn, websites, campaigns or client education when the intended channels are clear in advance."
+      },
+      {
+        "question": "Should corporate teams book directly?",
+        "answer": "For simple sessions, booking can work. For branded or multi-speaker projects, WhatsApp first is better so the brief and setup are confirmed."
+      },
+      {
+        "question": "Can Birdcast help structure the conversation?",
+        "answer": "Yes. The team can help clarify the episode flow, speaker pacing and production needs before the recording starts."
+      }
+    ],
+    "related": [
+      "corporate-video-production-dubai",
+      "executive-interview-recording-dubai",
+      "video-production-for-companies-dubai",
+      "branded-podcast-production-dubai"
+    ],
+    "process_title": "From corporate brief to structured business podcast",
+    "process_description": "Corporate podcast content needs a clear purpose, speaker flow and production setup that respects the brand."
+  }
+}

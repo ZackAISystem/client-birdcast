@@ -1,0 +1,126 @@
+{
+  "defaults": {
+    "brand": "Birdcast",
+    "city": "Dubai",
+    "booking_url": "https://birdcast-studio.podyx.com/by-date",
+    "whatsapp_url": "https://wa.me/971561886153",
+    "hero_eyebrow": "Birdcast Dubai",
+    "final_cta_title": "Ready to create professional content in Dubai?",
+    "final_cta_text": "Tell us what you want to record and the Birdcast team will guide you to the right studio, format and production setup.",
+    "final_cta_booking_label": "Book a Session",
+    "final_cta_whatsapp_label": "Talk on WhatsApp",
+    "global_trust_points": [
+      "Professional Dubai podcast studios",
+      "Multi-camera recording setup",
+      "Broadcast-level production experience",
+      "Fast delivery through Google Drive"
+    ],
+    "shared_process": [
+      {
+        "title": "Build the outline",
+        "text": "Define modules, lessons, procedures, audience level and what the viewer should understand after watching."
+      },
+      {
+        "title": "Plan delivery",
+        "text": "Choose direct-to-camera, slides, teleprompter, interview format or short lesson structure."
+      },
+      {
+        "title": "Record clearly",
+        "text": "Film training content with professional audio, lighting and a studio setup designed for clarity."
+      },
+      {
+        "title": "Prepare for reuse",
+        "text": "Deliver material for internal platforms, onboarding, Google Drive review or learning libraries."
+      }
+    ],
+    "shared_why": [
+      {
+        "title": "Studio quality",
+        "text": "Record in a professional environment built for podcasts, interviews, social content and business media."
+      },
+      {
+        "title": "Broadcast experience",
+        "text": "Birdcast is led by people with serious broadcast and media production experience."
+      },
+      {
+        "title": "Clear production flow",
+        "text": "From planning to recording and delivery, the process is structured and easy to follow."
+      },
+      {
+        "title": "Dubai locations",
+        "text": "Use Birdcast studio setups in Business Bay and Dubai Investment Park depending on your shoot."
+      }
+    ]
+  },
+  "page": {
+    "key": "training-video-recording-dubai",
+    "url": "/training-video-recording-dubai/",
+    "slug": "training-video-recording-dubai",
+    "seo_title": "Training Video Recording in Dubai | Birdcast",
+    "seo_description": "Record training videos, onboarding modules, internal lessons and educational content in Dubai with Birdcast.",
+    "h1": "Training Video Recording in Dubai",
+    "subtitle": "Record clear training videos, onboarding modules and internal learning material in a professional Dubai studio with clean audio and visuals.",
+    "primary_cta_label": "Talk on WhatsApp",
+    "primary_cta_url": "https://wa.me/971561886153",
+    "secondary_cta_label": "View Production Work",
+    "secondary_cta_url": "/#video-production-work",
+    "cta_type": "whatsapp",
+    "intent": "Training video recording Dubai",
+    "audience_note": "For HR teams, educators, companies and training departments creating learning content that needs to be clear and reusable.",
+    "audiences": [
+      {
+        "title": "HR teams",
+        "text": "Create onboarding, culture, employee training and internal communication videos."
+      },
+      {
+        "title": "Training departments",
+        "text": "Record structured lessons, process explanations and repeatable training content."
+      },
+      {
+        "title": "Educators",
+        "text": "Film clear educational videos with professional sound, cameras and lighting."
+      },
+      {
+        "title": "Team leaders",
+        "text": "Turn internal knowledge into practical videos for employees, partners or clients."
+      }
+    ],
+    "record_formats": [
+      "Employee training videos",
+      "Onboarding video modules",
+      "Internal lesson recordings",
+      "Process explainer videos",
+      "Learning and development content"
+    ],
+    "faq": [
+      {
+        "question": "Can Birdcast record training videos for companies?",
+        "answer": "Yes. Birdcast can support employee training, onboarding, internal lessons, educational content and process explainers."
+      },
+      {
+        "question": "Can several modules be recorded together?",
+        "answer": "Yes. Multiple short lessons or training sections can be recorded during one planned session if the outline is ready."
+      },
+      {
+        "question": "Is a teleprompter useful for training content?",
+        "answer": "Yes. A teleprompter can help when the content is scripted, detailed or needs consistent delivery across multiple modules."
+      },
+      {
+        "question": "Can training videos be used internally?",
+        "answer": "Yes. Training content can be prepared for internal platforms, Google Drive delivery or other company channels."
+      },
+      {
+        "question": "What should we send before the shoot?",
+        "answer": "Send the training outline, number of modules, target audience, speaker details and whether the content needs slides or scripted delivery."
+      }
+    ],
+    "related": [
+      "course-recording-studio-dubai",
+      "webinar-recording-studio-dubai",
+      "corporate-video-production-dubai",
+      "video-production-for-companies-dubai"
+    ],
+    "process_title": "From training outline to reusable learning video",
+    "process_description": "Training videos need clear structure, clean delivery and content that can be reused by teams or learners."
+  }
+}
