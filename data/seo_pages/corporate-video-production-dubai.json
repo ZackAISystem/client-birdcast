@@ -121,6 +121,12 @@
       "brand-content-production-dubai"
     ],
     "process_title": "From company message to polished corporate video",
-    "process_description": "Corporate video works best when the purpose, audience and delivery channels are clear before production begins."
+    "process_description": "Corporate video works best when the purpose, audience and delivery channels are clear before production begins.",
+    "hero_features": [
+      "Business video planning",
+      "Interviews and company stories",
+      "Studio production workflow",
+      "Delivery for business channels"
+    ]
   }
 }

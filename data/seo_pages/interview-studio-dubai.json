@@ -121,6 +121,12 @@
       "podcast-studio-dubai"
     ],
     "process_title": "From interview idea to professional recording",
-    "process_description": "A strong interview needs the right flow, guest setup and visual style before the first question is asked."
+    "process_description": "A strong interview needs the right flow, guest setup and visual style before the first question is asked.",
+    "hero_features": [
+      "Interview-ready studio space",
+      "Two-person and panel setups",
+      "Clean sound and camera angles",
+      "Edited assets on request"
+    ]
   }
 }

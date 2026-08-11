@@ -121,6 +121,12 @@
       "short-form-content-studio-dubai"
     ],
     "process_title": "From conversation plan to video podcast episode",
-    "process_description": "Video podcasts need both strong conversation flow and a visual setup that works across YouTube, LinkedIn and social clips."
+    "process_description": "Video podcasts need both strong conversation flow and a visual setup that works across YouTube, LinkedIn and social clips.",
+    "hero_features": [
+      "Video podcast recording",
+      "Multi-camera conversation setup",
+      "Guest and host-friendly studio",
+      "Full episodes and clips"
+    ]
   }
 }

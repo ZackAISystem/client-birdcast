@@ -49,7 +49,7 @@
           <p>{{ $p.audience_note }}</p>
 
           <div class="seo-hero__trust">
-            {{ range $defaults.global_trust_points }}
+            {{ range ($p.hero_features | default $defaults.global_trust_points) }}
               <span>{{ . }}</span>
             {{ end }}
           </div>

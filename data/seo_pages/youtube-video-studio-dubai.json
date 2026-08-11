@@ -121,6 +121,12 @@
       "brand-content-production-dubai"
     ],
     "process_title": "From YouTube idea to studio-recorded episode",
-    "process_description": "YouTube content benefits from a clear format, strong recording setup and a plan for long-form and short-form use."
+    "process_description": "YouTube content benefits from a clear format, strong recording setup and a plan for long-form and short-form use.",
+    "hero_features": [
+      "YouTube studio recording",
+      "Talking-head and interview formats",
+      "Clean lighting and sound",
+      "Clips and long-form delivery"
+    ]
   }
 }

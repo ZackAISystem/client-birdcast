@@ -121,6 +121,12 @@
       "linkedin-video-recording-dubai"
     ],
     "process_title": "From course outline to recorded learning modules",
-    "process_description": "Course recording becomes easier when lessons, modules and delivery expectations are organised before the studio session."
+    "process_description": "Course recording becomes easier when lessons, modules and delivery expectations are organised before the studio session.",
+    "hero_features": [
+      "Course-ready recording setup",
+      "Clear audio for lessons",
+      "Structured modules and takes",
+      "Files ready for upload"
+    ]
   }
 }
