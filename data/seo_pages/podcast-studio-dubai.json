@@ -2,7 +2,7 @@
   "defaults": {
     "brand": "Birdcast",
     "city": "Dubai",
-    "booking_url": "https://birdcast-studio.podyx.com/by-date",
+    "booking_url": "https://booking.birdcast.me",
     "whatsapp_url": "https://wa.me/971561886153",
     "hero_eyebrow": "Birdcast Dubai",
     "final_cta_title": "Ready to create professional content in Dubai?",
@@ -61,7 +61,7 @@
     "h1": "Podcast Studio in Dubai",
     "subtitle": "Record your podcast, interview or founder conversation in a professional Dubai studio built for creators, companies, experts and business media.",
     "primary_cta_label": "Book a Session",
-    "primary_cta_url": "https://birdcast-studio.podyx.com/by-date",
+    "primary_cta_url": "https://booking.birdcast.me",
     "secondary_cta_label": "View Podcast Sets",
     "secondary_cta_url": "/#sets",
     "cta_type": "booking",
