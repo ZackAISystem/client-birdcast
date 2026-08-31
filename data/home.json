@@ -3,7 +3,7 @@
   "logo_src": "/img/header-logo.png",
   "logo_alt": "Birdcast",
 
-  "booking_system_url": "https://birdcast-studio.podyx.com",
+  "booking_system_url": "https://booking.birdcast.me",
   "whatsapp_url": "https://wa.me/971561886153",
 
   "header_menu_item_1_label": "Studios",
@@ -17,14 +17,14 @@
 "header_menu_item_5_label": "Contact Us",
 "header_menu_item_5_url": "#contact",
 "header_cta_label": "Book Now",
-"header_cta_url": "https://birdcast-studio.podyx.com/by-date",
+"header_cta_url": "https://booking.birdcast.me",
 
   "hero_eyebrow": "Professional. Creative. Impactful.",
   "hero_title": "Premium studio & video production",
   "hero_title_accent": "in Dubai",
   "hero_description": "Podcast, social media content, and branded production built with experience, creative direction and broadcast level execution.",
   "hero_cta_primary_label": "Book a Session",
-  "hero_cta_primary_url": "https://birdcast-studio.podyx.com",
+  "hero_cta_primary_url": "https://booking.birdcast.me",
   "hero_cta_secondary_label": "Start a Project",
   "hero_cta_secondary_url": "#production",
   "hero_image": "/img/hero-bg.jpg",
@@ -120,17 +120,17 @@
 "service_1_title": "Podcast Studio Hire",
 "service_1_description": "Record your podcast, interview or panel session in a professional Dubai studio.",
 "service_1_cta_label": "Explore",
-"service_1_cta_url": "https://birdcast-studio.podyx.com/by-date",
+"service_1_cta_url": "https://booking.birdcast.me",
 
 "service_2_title": "Short Form Content (Reels / Shorts)",
 "service_2_description": "Create short-form videos, reels and clips designed for social platforms.",
 "service_2_cta_label": "Explore",
-"service_2_cta_url": "https://birdcast-studio.podyx.com/bundles/41ea655d-36a9-4c08-9c5b-d610120c3bd0/890efceb-a9a0-40f2-a331-cf1c5a60a83e",
+"service_2_cta_url": "https://booking.birdcast.me",
 
 "service_3_title": "Bundles",
 "service_3_description": "Choose ready-made content bundles for studio sessions, production and editing.",
 "service_3_cta_label": "Explore",
-"service_3_cta_url": "https://birdcast-studio.podyx.com/bundles",
+"service_3_cta_url": "https://booking.birdcast.me",
 
 "service_4_title": "Video Production",
 "service_4_description": "Plan, film and produce branded video content with a professional team.",
@@ -140,7 +140,7 @@
 "service_5_title": "Video Editing",
 "service_5_description": "Turn recorded footage into polished episodes, clips and campaign assets.",
 "service_5_cta_label": "Explore",
-"service_5_cta_url": "https://birdcast-studio.podyx.com/bundles/04af9220-e2c9-4a7c-b306-bcff93e5c6dc/bf04977c-65d6-4f5b-81fc-ede54fae7bf0",
+"service_5_cta_url": "https://booking.birdcast.me",
 
 "service_6_title": "Product Shoots",
 "service_6_description": "Film product-focused content for launches, campaigns and digital promotion.",
@@ -197,7 +197,7 @@
   "studio_1_image": "/img/studio-business-bay.jpg",
   "studio_1_alt": "Birdcast podcast studio in Business Bay Dubai",
   "studio_1_cta_label": "Book This Studio",
-  "studio_1_cta_url": "https://birdcast-studio.podyx.com",
+  "studio_1_cta_url": "https://booking.birdcast.me",
   "studio_1_details_label": "View Details",
   "studio_1_details_title": "Business Bay studio details",
   "studio_1_details_text": "A central Dubai studio for podcasts, interviews, founder content and branded conversations.",
@@ -218,7 +218,7 @@
   "studio_2_image": "/img/studio-dip.jpg",
   "studio_2_alt": "Birdcast podcast studio in Dubai Investment Park",
   "studio_2_cta_label": "Book This Studio",
-  "studio_2_cta_url": "https://birdcast-studio.podyx.com",
+  "studio_2_cta_url": "https://booking.birdcast.me",
   "studio_2_details_label": "View Details",
   "studio_2_details_title": "DIP studio details",
   "studio_2_details_text": "A production-friendly studio for podcasts, social clips, branded content and team shoots.",
@@ -324,7 +324,7 @@
 
   "booking_title": "Ready to get started?",
   "booking_cta_label": "Check availability",
-  "booking_cta_url": "https://birdcast-studio.podyx.com",
+  "booking_cta_url": "https://booking.birdcast.me",
   "booking_image": "/img/booking-banner.jpg",
   "booking_image_alt": "Birdcast studio set prepared for podcast recording",
 
@@ -404,21 +404,21 @@
   "footer_description": "Book a podcast studio session or speak to us about your next production in Dubai.",
 
   "footer_cta_primary_label": "Book Now",
-  "footer_cta_primary_url": "https://birdcast-studio.podyx.com",
+  "footer_cta_primary_url": "https://booking.birdcast.me",
   "footer_cta_secondary_label": "WhatsApp",
   "footer_cta_secondary_url": "https://wa.me/971561886153",
 
   "footer_services_title": "Services",
   "footer_service_1_label": "Podcast Studio",
-  "footer_service_1_url": "https://birdcast-studio.podyx.com",
+  "footer_service_1_url": "https://booking.birdcast.me",
   "footer_service_2_label": "Video Production",
   "footer_service_2_url": "#production",
   "footer_service_3_label": "Corporate Video",
-  "footer_service_3_url": "https://birdcast-studio.podyx.com",
+  "footer_service_3_url": "https://booking.birdcast.me",
   "footer_service_4_label": "Social Content",
-  "footer_service_4_url": "https://birdcast-studio.podyx.com",
+  "footer_service_4_url": "https://booking.birdcast.me",
   "footer_service_5_label": "Event Coverage",
-  "footer_service_5_url": "https://birdcast-studio.podyx.com",
+  "footer_service_5_url": "https://booking.birdcast.me",
 
   "footer_contact_title": "Contact",
   "footer_phone": "+971 56 188 6153",
@@ -459,5 +459,5 @@
   "footer_terms_label": "Terms",
   "footer_terms_url": "#",
   "footer_booking_label": "Booking",
-  "footer_booking_url": "https://birdcast-studio.podyx.com"
+  "footer_booking_url": "https://booking.birdcast.me"
 }

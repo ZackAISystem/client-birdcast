@@ -2,7 +2,7 @@
   "defaults": {
     "brand": "Birdcast",
     "city": "Dubai",
-    "booking_url": "https://birdcast-studio.podyx.com/by-date",
+    "booking_url": "https://booking.birdcast.me",
     "whatsapp_url": "https://wa.me/971561886153",
     "hero_eyebrow": "Birdcast Dubai",
     "final_cta_title": "Ready to create professional content in Dubai?",

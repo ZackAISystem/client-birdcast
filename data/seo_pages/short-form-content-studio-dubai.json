@@ -2,7 +2,7 @@
   "defaults": {
     "brand": "Birdcast",
     "city": "Dubai",
-    "booking_url": "https://birdcast-studio.podyx.com/by-date",
+    "booking_url": "https://booking.birdcast.me",
     "whatsapp_url": "https://wa.me/971561886153",
     "hero_eyebrow": "Birdcast Dubai",
     "final_cta_title": "Ready to create professional content in Dubai?",
@@ -61,7 +61,7 @@
     "h1": "Short Form Content Studio in Dubai",
     "subtitle": "Create reels, shorts and social media videos in a studio built for fast recording, polished delivery and repeatable content creation.",
     "primary_cta_label": "Book Reels Shoot",
-    "primary_cta_url": "https://birdcast-studio.podyx.com/bundles/41ea655d-36a9-4c08-9c5b-d610120c3bd0/890efceb-a9a0-40f2-a331-cf1c5a60a83e",
+    "primary_cta_url": "https://booking.birdcast.me",
     "secondary_cta_label": "Watch Showreel",
     "secondary_cta_url": "/#work",
     "cta_type": "booking",
