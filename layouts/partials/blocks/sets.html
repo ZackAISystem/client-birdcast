@@ -17,17 +17,10 @@
     </div>
 
     <div class="sets__grid">
-      <button
-        class="set-card js-set-open"
-        type="button"
-        style="--set-image: url('{{ $d.set_1_cover }}');"
-        data-set-title="{{ $d.set_1_title }}"
-        data-set-image-1="{{ $d.set_1_image_1 }}"
-        data-set-image-2="{{ $d.set_1_image_2 }}"
-        data-set-image-3="{{ $d.set_1_image_3 }}"
-        data-booking-url="https://booking.birdcast.me"
-        aria-label="View {{ $d.set_1_title }} set photos"
-      >
+      <button class="set-card js-set-open" type="button" style="--set-image: url('{{ $d.set_1_cover }}');"
+        data-set-title="{{ $d.set_1_title }}" data-set-image-1="{{ $d.set_1_image_1 }}"
+        data-set-image-2="{{ $d.set_1_image_2 }}" data-set-image-3="{{ $d.set_1_image_3 }}"
+        data-booking-url="{{ $d.set_1_booking_url }}" aria-label="View {{ $d.set_1_title }} set photos">
         <span class="set-card__content">
           <span class="set-card__tag">{{ $d.set_1_tag }}</span>
           <strong>{{ $d.set_1_title }}</strong>
@@ -37,17 +30,10 @@
         <span class="set-card__arrow" aria-hidden="true">›</span>
       </button>
 
-      <button
-        class="set-card js-set-open"
-        type="button"
-        style="--set-image: url('{{ $d.set_2_cover }}');"
-        data-set-title="{{ $d.set_2_title }}"
-        data-set-image-1="{{ $d.set_2_image_1 }}"
-        data-set-image-2="{{ $d.set_2_image_2 }}"
-        data-set-image-3="{{ $d.set_2_image_3 }}"
-        data-booking-url="https://booking.birdcast.me"
-        aria-label="View {{ $d.set_2_title }} set photos"
-      >
+      <button class="set-card js-set-open" type="button" style="--set-image: url('{{ $d.set_2_cover }}');"
+        data-set-title="{{ $d.set_2_title }}" data-set-image-1="{{ $d.set_2_image_1 }}"
+        data-set-image-2="{{ $d.set_2_image_2 }}" data-set-image-3="{{ $d.set_2_image_3 }}"
+        data-booking-url="{{ $d.set_2_booking_url }}" aria-label="View {{ $d.set_2_title }} set photos">
         <span class="set-card__content">
           <span class="set-card__tag">{{ $d.set_2_tag }}</span>
           <strong>{{ $d.set_2_title }}</strong>
@@ -57,61 +43,14 @@
         <span class="set-card__arrow" aria-hidden="true">›</span>
       </button>
 
-      <button
-        class="set-card js-set-open"
-        type="button"
-        style="--set-image: url('{{ $d.set_3_cover }}');"
-        data-set-title="{{ $d.set_3_title }}"
-        data-set-image-1="{{ $d.set_3_image_1 }}"
-        data-set-image-2="{{ $d.set_3_image_2 }}"
-        data-set-image-3="{{ $d.set_3_image_3 }}"
-        data-booking-url="https://booking.birdcast.me"
-        aria-label="View {{ $d.set_3_title }} set photos"
-      >
+      <button class="set-card js-set-open" type="button" style="--set-image: url('{{ $d.set_3_cover }}');"
+        data-set-title="{{ $d.set_3_title }}" data-set-image-1="{{ $d.set_3_image_1 }}"
+        data-set-image-2="{{ $d.set_3_image_2 }}" data-set-image-3="{{ $d.set_3_image_3 }}"
+        data-booking-url="{{ $d.set_3_booking_url }}" aria-label="View {{ $d.set_3_title }} set photos">
         <span class="set-card__content">
           <span class="set-card__tag">{{ $d.set_3_tag }}</span>
           <strong>{{ $d.set_3_title }}</strong>
           <span>{{ $d.set_3_short }}</span>
-        </span>
-
-        <span class="set-card__arrow" aria-hidden="true">›</span>
-      </button>
-
-      <button
-        class="set-card js-set-open"
-        type="button"
-        style="--set-image: url('{{ $d.set_4_cover }}');"
-        data-set-title="{{ $d.set_4_title }}"
-        data-set-image-1="{{ $d.set_4_image_1 }}"
-        data-set-image-2="{{ $d.set_4_image_2 }}"
-        data-set-image-3="{{ $d.set_4_image_3 }}"
-        data-booking-url="https://booking.birdcast.me"
-        aria-label="View {{ $d.set_4_title }} set photos"
-      >
-        <span class="set-card__content">
-          <span class="set-card__tag">{{ $d.set_4_tag }}</span>
-          <strong>{{ $d.set_4_title }}</strong>
-          <span>{{ $d.set_4_short }}</span>
-        </span>
-
-        <span class="set-card__arrow" aria-hidden="true">›</span>
-      </button>
-
-      <button
-        class="set-card js-set-open"
-        type="button"
-        style="--set-image: url('{{ $d.set_5_cover }}');"
-        data-set-title="{{ $d.set_5_title }}"
-        data-set-image-1="{{ $d.set_5_image_1 }}"
-        data-set-image-2="{{ $d.set_5_image_2 }}"
-        data-set-image-3="{{ $d.set_5_image_3 }}"
-        data-booking-url="https://booking.birdcast.me"
-        aria-label="View {{ $d.set_5_title }} set photos"
-      >
-        <span class="set-card__content">
-          <span class="set-card__tag">{{ $d.set_5_tag }}</span>
-          <strong>{{ $d.set_5_title }}</strong>
-          <span>{{ $d.set_5_short }}</span>
         </span>
 
         <span class="set-card__arrow" aria-hidden="true">›</span>
@@ -139,12 +78,7 @@
         ›
       </button>
 
-      <button
-        class="set-modal__cta"
-        id="set-modal-cta"
-        type="button"
-        aria-label="Book this set"
-      >
+      <button class="set-modal__cta" id="set-modal-cta" type="button" aria-label="Book this set">
         <span>Book this set</span>
         <strong>›</strong>
       </button>
