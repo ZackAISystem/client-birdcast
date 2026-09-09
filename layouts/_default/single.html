@@ -1,0 +1,51 @@
+{{ partial "core/head.html" . }}
+
+<body class="legal-page-body">
+  {{ partial "blocks/header.html" . }}
+
+  <main class="legal-page">
+    <section class="legal-hero">
+      <div class="legal-hero__inner">
+        <nav class="legal-breadcrumb" aria-label="Breadcrumb">
+          <a href="/" class="legal-breadcrumb__link">Home</a>
+          <span class="legal-breadcrumb__separator">/</span>
+          <span class="legal-breadcrumb__current">{{ .Title }}</span>
+        </nav>
+
+        <h1 class="legal-hero__title">{{ .Title }}</h1>
+
+        <div class="legal-hero__meta">
+          <span class="legal-hero__badge">Effective Date: {{ .Params.effective_date | default "1 June 2026" }}</span>
+          <span class="legal-hero__company">Birdcast Entertainment Services LLC</span>
+        </div>
+      </div>
+    </section>
+
+    <section class="legal-section">
+      <div class="legal-container">
+        <article class="legal-prose">
+          {{ .Content }}
+        </article>
+
+        <div class="legal-help-card">
+          <div class="legal-help-card__text">
+            <h3>Have questions about our {{ .Title }}?</h3>
+            <p>Our team is available daily from 9:00 AM to 10:00 PM to help with any inquiries.</p>
+          </div>
+          <div class="legal-help-card__actions">
+            <a href="mailto:hi@birdcast.me" class="legal-help-card__btn legal-help-card__btn--primary">
+              Email Us
+            </a>
+            <a href="https://wa.me/971561886153" target="_blank" rel="noopener noreferrer" class="legal-help-card__btn legal-help-card__btn--secondary">
+              WhatsApp
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  {{ partial "blocks/footer.html" . }}
+  {{ partial "core/scripts.html" . }}
+</body>
+</html>
