@@ -408,9 +408,9 @@
 
   "footer_copyright": "© Birdcast Podcast Studio · Dubai, UAE. All rights reserved.",
   "footer_privacy_label": "Privacy Policy",
-  "footer_privacy_url": "#",
-  "footer_terms_label": "Terms",
-  "footer_terms_url": "#",
+  "footer_privacy_url": "/privacy-policy/",
+  "footer_terms_label": "Terms & Conditions",
+  "footer_terms_url": "/terms/",
   "footer_booking_label": "Booking",
   "footer_booking_url": "https://booking.birdcast.me"
 }

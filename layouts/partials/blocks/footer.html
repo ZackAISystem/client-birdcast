@@ -113,19 +113,11 @@
       <p>{{ $d.footer_copyright }}</p>
 
       <div class="site-footer__legal">
-        <a
-          href="https://docs.google.com/document/d/1dY4BTReGG7FpyBZCbGHWa-Y70MIeTWqY/edit?usp=sharing&amp;ouid=101184683241690979628&amp;rtpof=true&amp;sd=true"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
+        <a href="{{ $d.footer_privacy_url | default "/privacy-policy/" }}">
           {{ $d.footer_privacy_label }}
         </a>
 
-        <a
-          href="https://docs.google.com/document/d/1ArkvJr5QuPC9gJdQCFq3LmhGMb9DabGd/edit?usp=drive_link&amp;ouid=101184683241690979628&amp;rtpof=true&amp;sd=true"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
+        <a href="{{ $d.footer_terms_url | default "/terms/" }}">
           {{ $d.footer_terms_label }}
         </a>
 
