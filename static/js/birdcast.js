@@ -2,6 +2,19 @@
   const html = document.documentElement;
   html.classList.add('js-ready');
 
+  const header = document.getElementById('site-header');
+  if (header) {
+    const updateHeader = () => {
+      if (window.scrollY > 10) {
+        header.classList.add('is-scrolled');
+      } else {
+        header.classList.remove('is-scrolled');
+      }
+    };
+    window.addEventListener('scroll', updateHeader, { passive: true });
+    updateHeader();
+  }
+
   document.querySelectorAll('[data-scroll-to]').forEach((button) => {
     button.addEventListener('click', () => {
       const target = document.querySelector(button.dataset.scrollTo);
